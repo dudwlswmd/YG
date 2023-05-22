@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+     <link rel="shortcut icon" href="img/ficon.png">
+     <title>YG_Sass</title>
+     <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/reset.css">
+     <link rel="stylesheet" href="css/swiper.min.css">
+     <script src="js/swiper.min.js"></script>
+
+</head>
+<body>
+     <header>
+          <div class="head">
+               <h1>
+                    <a href="">
+                         <img src="img/logo_ygfamily_h.svg" alt="LOGO1" class="off">
+                         <img src="img/logo_ygfamily.svg" alt="LOGO2" class="on">
+                    </a> 
+               </h1>
+               <nav>
+                    <ul>
+                         <li><a href="#"><span>NOTICE</span></a></li>
+                         <li><a href="#"><span>NEWS</span></a></li>
+                         <li><a href="#"><span>ARTISTS</span></a></li>
+                         <li><a href="#"><span>ACTORS</span></a></li>
+                         <li><a href="#"><span>MULTIMEDIA</span></a></li>
+                         <li><a href="#"><span>SELECT</span></a></li>
+                         <li><a href="#"><span>WITH</span></a></li>
+                    </ul>
+               </nav>
+          </div><!--head : END-->
+     </header>
+     <div class="main">
+          <div class="main_right">
+               <div class="hamMenu">
+                    <span></span>
+               </div><!--hamMenu-->
+
+               <ul>
+                    <li class="on"><a href="#s1" >TOP</a></li>
+                    <li><a href="#s2">CONCERT</a></li>
+                    <li><a href="#s3">ABOUT</a></li>
+                    <li><a href="#s4">NEWS</a></li>
+                    <li><a href="#s5">SELECT</a></li>
+                    <li><a href="#s6">YG TV</a></li>
+                    <li><a href="#s7">RESUME</a></li>
+               </ul>
+          </div><!--main_right : END-->
+          <div class="main_left">
+               <section id="s1">
+                    <div class="visual">
+                    <!-- Swiper -->
+                    <div class="swiper visual_swiper">
+                         <div class="swiper-wrapper">
+                         <div class="swiper-slide">
+                              <div class="bg"></div>
+                              <h2>
+                                   Embrace the Rhythm of Innovation,  
+                                   <span>Join the Global Movement.  Redefining Music.</span>
+                              </h2>
+                              <!-- <iframe width="100%" height="100%" src="https://www.youtube.com/embed/KBWB69tMXlY?autoplay=1&loop=1&playlist=KBWB69tMXlY" title="YG오디션 홈페이지 메인 영상 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                              <video autoplay loop muted>
+                                   <source src="video/main.mp4" type="video/mp4">
+                              </video>
+                                 
+                         </div>
+                         <div class="swiper-slide">
+                              <div class="bg"></div>
+                              <h2>
+                                   Discovering Creative Stars, Shaping Global Music. 
+                                   <span>Join forces with YG to move the world.</span>
+                              </h2>
+                              <video autoplay loop muted name="media">
+                                   <source src="video/jisoo.mp4" type="video/mp4">
+                              </video>
+                         </div>
+                         <div class="swiper-slide">
+                              <h2>
+                                   Unlocking Boundless Creativity, Unleashing the Power of Music. 
+                                   <span>YG Entertainment: Where Dreams Come Alive.</span>
+                              </h2>
+                              <div class="bg"></div>
+                              <video autoplay loop muted name="media">
+                                   <source src="video/JiYong.mp4" type="video/mp4">
+                              </video>
+                         </div>
+                         <!-- <div class="swiper-slide">
+                              <h2>
+                                   Embrace the Rhythm of Innovation,  
+                                   <span>Join the Global Movement.  Redefining Music.</span>
+                              </h2>
+                              <video autoplay loop muted name="media">
+                                   <source src="https://smtown-cdn.smtown.com/upload/smtown/main/video/c926063feb4746d09c2fefc25ddf1916_2023-04-22-09-17-51.mp4" type="video/mp4">
+                              </video>
+                         </div> -->
+
+                         </div>
+
+                         <div class="visualBtns">
+                              <div class="swiper-button-next next"></div>
+                              <div class="swiper-button-prev prev"></div>
+                              <div class="swiper-pagination"></div>
+                              <button class="stopBtn">멈춤</button>
+                              <div class="autoplay-progress">
+                                   <svg class="progress" viewBox="0 0 100 100">
+                                        <path class="background" d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="rgba(255,255,255,0)" stroke-width="7" fill-opacity="0"></path>
+                                        <path class="bar" d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="#fff" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 292.273, 292.273; stroke-dashoffset:0;"></path>
+                                   </svg>
+                              <!-- <svg viewBox="0 0 48 48">
+                                   <circle cx="24" cy="24" r="20"></circle>
+                              </svg> -->
+                              <!-- <span></span> -->
+                              </div><!--END : autoplay-progress-->
+                         </div><!--END : visualBtns-->
+                    </div>
+                    
+                    <!-- Swiper JS -->
+                    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+                    
+                    <!-- Initialize Swiper -->
+                    <script>
+                         const progress = document.querySelector(".autoplay-progress ");
+                         const progressCircle = document.querySelector(".autoplay-progress svg");
+                         const progressContent = document.querySelector(".autoplay-progress span");
+                         var visual_swiper = new Swiper(".visual_swiper", {
+                              loop: true,
+                              slidesPerView: 1,
+                              spaceBetween: 0,
+                              nextButton: '.swiper-button-next',
+                              loopAdditionalSlides: 0,
+                              autoplay: {
+                                   delay: 15000,
+                                   disableOnInteraction: false,
+                              },
+                              pagination: {
+                                   el: ".swiper-pagination",
+                                   clickable: true
+                              },
+                              navigation: {
+                                   nextEl: ".swiper-button-next",
+                                   prevEl: ".swiper-button-prev"
+                              },
+                              on: {
+                                   slideChangeTransitionEnd: function () { progress },
+                                   slideChange: function() {
+                                        animate(100, 15000);
+                                        // stopp = alert('오잉?')
+                                   },
+                              }
+                         });
+
+                         const stopButton = document.querySelector(".stopBtn");
+                         const cir = document.querySelector('.progress')
+
+                         stopButton.addEventListener("click", () => {
+                              stopButton.classList.toggle('stop');
+                              cir.classList.toggle('active');
+                              if (stopButton.classList.contains('stop')) {
+                                   visual_swiper.autoplay.stop();
+                                   cir.classList.add('active')
+                              } else {
+                                   visual_swiper.autoplay.start();
+                                   cir.classList.remove('active')
+                                   animate(100, 15000);
+                              }
+                         });
+
+                         
+          // const button = document.querySelector('button')
+          // button.addEventListener('click',function(){
+          //      if(cir.classList.contains('active')){
+          //           cir.classList.remove('active')
+          //           animate(100, 10000);
+          //      } else {
+          //           cir.classList.add('active')
+          //      }
+          // });
+
+          const background = document.querySelector(".background");
+          const bar = document.querySelector(".bar");
+     
+          function setProgress(progress) {
+               const length = background.getTotalLength();
+               const offset = length - progress / 100 * length;
+               bar.style.strokeDashoffset = offset;
+          }
+          function animate(progress, duration) {
+               const startTime = performance.now();
+               function update(currentTime) {
+                    const elapsedTime = currentTime - startTime;
+                    const progressRatio = Math.min(elapsedTime / duration, 1);
+                    setProgress(progressRatio * progress);
+                    if (elapsedTime < duration) {
+                              requestAnimationFrame(update);
+                    }
+               }
+               requestAnimationFrame(update);
+          }
+
+          animate(100, 15000);
+
+                         // const stopBtn = document.querySelector('.stopBtn');
+                         // const bars = document.querySelectorAll('.swiper-pagination-bullet .bar');
+
+                         // stopBtn.addEventListener('click', function() {
+                         // stopBtn.classList.toggle('stop');
+
+                         // if (stopBtn.classList.contains('stop')) {
+                         //      visual_slider.autoplay.stop();
+                         //      if (bars.length > 0) {
+                         //      bars.forEach(function(bar) {
+                         //           bar.classList.remove('bar');
+                         //           });
+                         //      }
+                         // } else {
+                         //      visual_slider.autoplay.start();
+                         //      if (bars.length > 0) {
+                         //           bars.forEach(function(bar) {
+                         //           bar.classList.add('bar');
+                         //           });
+                         //      }
+                         // }
+                         // });
+                    </script>
+
+                    </div><!--visual : END-->
+               </section>
+               <section id="s2">
+     
+                    <div class="cursor">
+                         <img src="" alt="fllow_img">
+                    </div>
+                    <h3>CONCERT</h3>
+                    <h4>YG의 콘서트 일정을 확인해보세요.</h4>
+                    <div class="concertList">
+                         <dl class="today">
+                              <dt>Today</dt>
+                              <dd>2023년 09월 20일</dd>
+                         </dl>
+                         <div class="swiper concertList_swiper">
+
+                              <div class="swiper-wrapper">
+                                   <div class="swiper-slide my-div" data-img="img/con01.jpg">
+                                        <a href="#">
+                                             <p>D-4</p>
+                                             <dl>
+                                                  <dt>09.24</dt>
+                                                  <dd>블랙핑크 태국 콘서트</dd>
+                                             </dl>
+                                        </a>
+                                   </div>
+                                   <div class="swiper-slide my-div" data-img="img/con02.jpg">
+                                        <a href="#">
+                                             <p>D-9</p>
+                                             <dl>
+                                                  <dt>09.29</dt>
+                                                  <dd>블랙핑크 태국 오리진 콘서트</dd>
+                                             </dl>
+                                        </a>
+                                   </div>
+                                   <div class="swiper-slide" data-img="img/con03.jpg">
+                                        <a href="#">
+                                             <p>D-19</p>
+                                             <dl>
+                                                  <dt>10.08</dt>
+                                                  <dd>위너 더서클 콘서트</dd>
+                                             </dl>
+                                        </a>
+                                   </div>
+                                   <div class="swiper-slide" data-img="img/con04.jpeg">
+                                        <a href="#">
+                                             <p>D-20</p>
+                                             <dl>
+                                                  <dt>10.09</dt>
+                                                  <dd>위너 더 클리어 콘서트</dd>
+                                             </dl>
+                                        </a>
+                                   </div>
+                                   <div class="swiper-slide" data-img="img/con05.jpg">
+                                        <a href="#">
+                                             <p>D-23</p>
+                                             <dl>
+                                                  <dt>10.12</dt>
+                                                  <dd>블랙핑크 미국 콘서트</dd>
+                                             </dl>
+                                        </a>
+                                   </div>
+                                   <div class="swiper-slide" data-img="img/con06.jpg">
+                                        <a href="#">
+                                             <p>D-24</p>
+                                             <dl>
+                                                  <dt>10.13</dt>
+                                                  <dd>블랙핑크 미국 투어 START!</dd>
+                                             </dl>
+                                        </a>
+                                   </div>
+                                   <div class="swiper-slide"  data-img="img/con07.avif">
+                                        <a href="#">
+                                             <p>D-25</p>
+                                             <dl>
+                                                  <dt>10.14</dt>
+                                                  <dd>블랙핑크 미국 투어 START!</dd>
+                                             </dl>
+                                        </a>
+                                   </div>
+                              </div>
+                         </div><!--concertList_swiper : END-->
+                         <div class="concertBtns">
+                              <div class="swiper-button-next next"></div>
+                              <div class="swiper-button-prev prev"></div>
+                         </div><!--concertBtns : END-->
+                         <script>
+                              var concertList = new Swiper(".concertList_swiper", {
+                                   slidesPerView: 1,
+                                   spaceBetween: 10,
+                                   navigation: {
+                                        nextEl: ".swiper-button-next",
+                                        prevEl: ".swiper-button-prev"
+                              },
+                                   breakpoints: {
+                                        640: {
+                                             slidesPerView: 2,
+                                             spaceBetween: 20,
+                                        },
+                                        768: {
+                                             slidesPerView: 4,
+                                             spaceBetween: 40,
+                                        },
+                                        1024: {
+                                             slidesPerView: 5,
+                                             spaceBetween: 30,
+                                        },
+                                   },
+                              });
+
+
+
+
+let cursor = document.querySelector('.cursor');
+let listItems = document.querySelectorAll('.concertList_swiper .swiper-slide');
+let currentImgSrc = '';
+
+document.addEventListener('DOMContentLoaded', function() {
+     document.addEventListener('mousemove', function(e) {
+          var mouseX = e.pageX;
+          var mouseY = e.pageY;
+
+          cursor.style.left = mouseX + 'px';
+          cursor.style.top = mouseY + 'px';
+
+          for (let listItem of listItems) {
+          if (listItem.contains(e.target)) {
+          let imgSrc = listItem.dataset.img;
+          if (currentImgSrc !== imgSrc) {
+               currentImgSrc = imgSrc;
+               cursor.querySelector('img').src = imgSrc;
+               cursor.style.display = 'block';
+          }
+          break;
+          } else {
+          currentImgSrc = '';
+          cursor.style.display = 'none';
+          }
+          }
+     });
+});
+
+                            </script>
+                    </div><!--concertList : END-->
+               </section>
+               <section id="s3">
+                    <div class="move_text_box">
+                         <div class="text">
+                             <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                             <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                             <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                             <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                         </div>
+                     </div><!--move_text_box : END-->
+                     <div class="in">
+                         <div class="title_box">
+                              <button class="sect_tit on">
+                                   YG ENTERTAINMENT
+                              </button>
+                              <button class="sect_tit">
+                                   ABOUT YG
+                              </button>
+                          </div><!--title_box : END-->
+                          <div class="conW">
+                              <div class="conContent">
+                                    <!-- Swiper -->
+                                   <div class="swiper aboutSlide swiper-container">
+                                        <div class="swiper-wrapper ">
+                                             <div class="swiper-slide">
+                                                  <div class="img">
+                                                       <div class="image-wrapper">
+                                                         <img src="img/blackPink2.jpg" alt="">
+                                                       </div>
+                                                       <div class="image-wrapper">
+                                                         <img src="img/winner1.jpg" alt="">
+                                                       </div>
+                                                       <div class="image-wrapper">
+                                                         <img src="img/akmu1.jpg" alt="">
+                                                       </div>
+                                                     </div>
+                                                     
+                                                  <div class="texts">
+                                                       <h4>YG Entertainment</h4>
+                                                       <p>
+                                                            독보적인 신인 개발 및 제작 역량을 가지고 있습니다. 
+                                                            1996년 이래로 지누션, 1TYM, 세븐, 빅뱅, 2NE1, 이하이 등 
+                                                            당대 대중 음악계를 이끄는 최고의 아티스트를 배출해왔습니다. 
+                                                            잠재력 있는 신인 캐스팅, YG만의 독보적이고 체계적인 트레이닝, 
+                                                            세계 정상급 인하우스 프로듀싱 시스템을 통해 글로벌 시장을 리드할 
+                                                            수 있는 아티스트를 양성하고 있습니다. YG는 최고가 되고 싶은 
+                                                            이들이 가장 선호하는 브랜드가 되었습니다.
+                                                       </p>
+                                                       <button class="on"><span>BLACKPINK</span></button>
+                                                       <button><span>WINNER</span></button>
+                                                       <button><span>AKMU</span></button>
+                                                       <!-- <p class="idollLogo">
+                                                            <img src="img/blackpinkLogo.png" alt="">
+                                                       </p> -->
+                                                  </div><!--texts : END-->
+                                             </div><!--swiper-slide : END-->
+                                             <div class="swiper-slide">
+                                                  <div class="img two">
+                                                       <div class="image-wrapper">
+                                                            <img src="img/gdracon.jpg" alt="">
+                                                          </div>
+                                                       <div class="image-wrapper">
+                                                         <img src="img/blackPinkCon.jpg" alt="">
+                                                       </div>
+                                                       <div class="image-wrapper">
+                                                         <img src="img/JENNIE.jpg" alt="">
+                                                       </div>
+                                                     </div>
+                                                     
+                                                  <div class="texts">
+                                                       <h4>YG Entertainment</h4>
+                                                       <p>
+                                                            OSMU전략을 통해 다각화된 콘텐츠 비지니스 사업 모델을 확충하고 있습니다. 
+                                                            기존 사업인 음반, 콘서트는 물론이고 플랫폼 및 디바이스 다양화에 대응하여 
+                                                            시장에서 선도적인 디지털 음원 사업을 펼치고 있습니다, 이외에 광고, 방송, 캐릭터, 
+                                                            게임 등 업계의 비지니스 모델 공식을 만들어 나가며 다변화된 매니지먼트 비지니스를 확장하고 있습니다. 
+                                                            YG는 새로운 콘텐츠 비지니스 영역의 개척자가 되었습니다.
+                                                       </p>
+                                                       <button class="on"><span>G-DRAGON</span></button>
+                                                       <button><span>BLACKPINK</span></button>
+                                                       <button><span>JENNIE</span></button>
+                                                       <!-- <p class="idollLogo">
+                                                            <img src="img/blackpinkLogo.png" alt="">
+                                                       </p> -->
+                                                  </div><!--texts : END-->
+                                             </div><!--swiper-slide : END-->
+                                             <div class="swiper-slide">
+                                                  <div class="img two">
+                                                       <div class="image-wrapper">
+                                                            <img src="img/mino.jpg" alt="">
+                                                          </div>
+                                                       <div class="image-wrapper">
+                                                         <img src="img/te.jpg" alt="">
+                                                       </div>
+                                                       <div class="image-wrapper">
+                                                         <img src="img/krunk.jpg" alt="">
+                                                       </div>
+                                                     </div>
+                                                     
+                                                  <div class="texts">
+                                                       <h4>YG Entertainment</h4>
+                                                       <p>
+                                                            세계를 향하고 있습니다. 
+                                                            2007년 YG JAPAN을 설립하여 이미 일본 시장에 진출하였으며, 
+                                                            2011년, 일본 최대의 엔터테인먼트사 AVEX와 합작을 통해 YG만을 위한 
+                                                            단독 레이블 YGEX를 설립하고 더 공격적인 일본 시장 진출을 펼치고 있습니다. 
+                                                            또한 2012년 홍콩에 YG ASIA를 설립하며 대만과 중국 본토를 아우르는 등 
+                                                            아시아 전체 시장으로 활로를 넓혀갔습니다. 팝 시장의 본토인 미주, 유럽 등도 
+                                                            뉴미디어 공략을 통한 차별화된 접근법으로 가시적인 성과를 거두고 있습니다.
+                                                       </p>
+                                                       <button class="on"><span>MINO</span></button>
+                                                       <button><span>TAEYANG</span></button>
+                                                       <button><span>KRUNK</span></button>
+                                                       <!-- <p class="idollLogo">
+                                                            <img src="img/blackpinkLogo.png" alt="">
+                                                       </p> -->
+                                                  </div><!--texts : END-->
+                                             </div><!--swiper-slide : END-->
+                                        </div><!--swiper-wrapper : END-->
+                                        <div class="btns">
+                                             <div class="swiper-button-next next"></div>
+                                             <div class="swiper-button-prev prev"></div>
+                                             <div class="swiper-pagination"></div>
+                                        </div><!--btns : END-->
+                                   </div><!--aboutSlide : END-->
+                                   <script>
+                                        var swiper = new Swiper(".aboutSlide", {
+                                             speed:800,
+                                             pagination: {
+                                                  el: ".swiper-pagination",
+                                                  type: "fraction",
+                                             },
+                                             navigation: {
+                                                  nextEl: ".swiper-button-next",
+                                                  prevEl: ".swiper-button-prev",
+                                             },
+                                        });
+
+const slides = document.querySelectorAll('.swiper-slide');
+slides.forEach((slide) => {
+  const buttons = slide.querySelectorAll('.texts button');
+  const imageWrappers = slide.querySelectorAll('.img .image-wrapper');
+
+  // 첫 번째 이미지 외의 모든 이미지 숨기기
+  imageWrappers.forEach((wrapper, index) => {
+    if (index !== 0) {
+      wrapper.classList.add('off');
+    } else {
+      wrapper.classList.add('on');
+    }
+  });
+
+  // 버튼에 클릭 이벤트 리스너 추가
+  buttons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+      // 모든 이미지 숨기기
+      imageWrappers.forEach((wrapper) => {
+        wrapper.classList.add('off');
+        wrapper.classList.remove('on');
+      });
+
+      // 해당하는 이미지 보여주기
+      imageWrappers[index].classList.remove('off');
+      imageWrappers[index].classList.add('on');
+
+      // 버튼에 on 클래스 추가
+      buttons.forEach((btn) => {
+        btn.classList.remove('on');
+      });
+      button.classList.add('on');
+    });
+  });
+});
+
+
+
+
+                                   </script>
+                              </div><!--conContent : END-->
+                              <div class="conContent">
+                                   <h4>
+                                        VIBE<br />
+                                        THE NEW<br />
+                                        RLOW<br />
+                                        <span>"새로운 흐름이 되어라"</span>
+                                   </h4>
+                                   <div class="texts">
+                                        <h5>YG BRAND STATEMENT</h5>
+                                        <p>
+                                             브랜드 스테이트먼트는 핵심 가치와 비전을 함축적으로 담아 브랜드의 Tone of Voice를 전달하는 문장입니다. 
+                                             도전에 대한 열정적 태도로 새로운 흐름을 창조하고 이를 통한 대중과의 소통을 의미하고 있습니다. 
+                                             브랜드가 갖고 있는 철학과 지향점을 대내외적으로 전달하여 브랜드 이미지와 정체성을 각인시키는 역할을 합니다.
+                                        </p>
+                                        <h5>YG BRAND VISION</h5>
+                                        <p>
+                                             브랜드 스테이트먼트는 핵심 가치와 비전을 함축적으로 담아 브랜드의 
+                                             Tone of Voice를 전달하는 문장입니다. 
+                                             도전에 대한 열정적 태도로 새로운 흐름을 창조하고 이를 통한 
+                                             대중과의 소통을 의미하고 있습니다. 브랜드가 갖고 있는 철학과 
+                                             지향점을 대내외적으로 전달하여 브랜드 이미지와 정체성을 
+                                             각인시키는 역할을 합니다.
+                                        </p>
+                                        <h5>YG BRAND KEY VALUES</h5>
+                                        <p>
+                                             핵심가치는 일관된 브랜드 정체성을 유지하기 위한 추구 가치 및 규율입니다. 
+                                             브랜드를 표현하고 운용하는데 있어서 항상 숙고 하여 다양한 브랜드 경험 요소에 내재화되어야 합니다.
+                                        </p>
+                                   </div><!--texts : END-->
+                              </div><!--conContent : END-->
+                          </div>
+                          <script>
+                         // JavaScript 코드
+                         const titleButtons = document.querySelectorAll('.title_box button.sect_tit');
+                         const conContents = document.querySelectorAll('.conW .conContent');
+
+                         // 첫 번째 콘텐츠를 보이도록 초기화
+                         conContents[0].style.display = 'block';
+
+                         titleButtons.forEach((button, index) => {
+                              button.addEventListener('click', () => {
+                                   // 모든 탭 버튼의 활성화 상태 제거
+                                   titleButtons.forEach((e) => {
+                                        e.classList.remove('on');
+                                   });
+                                   // 모든 탭 콘텐츠의 표시 여부 제어
+                                   conContents.forEach((e) => {
+                                        e.style.display = 'none';
+                                   });
+
+                                   // 선택한 탭 버튼 활성화
+                                   button.classList.add('on');
+                                   // 선택한 탭 콘텐츠 표시
+                                   conContents[index].style.display = 'block';
+                              });
+                         });
+
+                          </script>
+                     </div><!--in : END-->
+               </section>
+               <section id="s4">
+                    <div class="move_text_box_two">
+                         <div class="text">
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                         </div>
+                     </div><!--move_text_box_two : END-->
+                     <div class="in">
+                         <h4>
+                              YG NEWS
+                              <span>YG의 소식과 콘서트를 확인해보세요</span>
+                         </h4>
+                         <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+                         <div class="container">
+                              <div class="box">
+                                   <a href="">
+                                        <img src="img/new/new01.jpg" alt="지수사진">
+                                        <dl>
+                                             <dt>블랙핑크 지수 ‘꽃’, 글로벌 유튜브 송·뮤비 차트 1위</dt>
+                                             <dd>
+                                                  걸그룹 블랙핑크의 지수가 발표한 솔로 음반 타이틀곡 ‘꽃’이 글로벌 유튜브 송 ‘톱 100’ 차트에서 2주 연속 1위를 차지했다고 소속사 YG엔터테인먼트가 16일 밝혔다.
+                                                  지수의 ‘꽃’은 전 세계에서 가장 많이 본 뮤직비디오 부문에서는 지난주 1위에 이어 2위를 기록했다. ‘꽃’ 뮤직비디오는 공개 8일 만에 1억뷰를 넘어서기도 했다.
+                                                  한편, 블랙핑크는 진행 중인 월드투어 ‘본 핑크'(BORN PINK)가 호평을 받으면서 북미 스타디움 공연 추가 개최를 발표했다
+                                             </dd>
+                                        </dl>
+                                        <div class="tag">
+                                             <span> # 글로벌</span>
+                                             <span> # 차트 1위</span>
+                                        </div><!--tag : END-->
+                                   </a>
+                              </div>
+                              <div class="box">
+                                   <a href="">
+                                        <img src="img/con06.jpg" alt="블핑 콘서트 껴안는 사진">
+                                        <dl>
+                                             <dt>블랙핑크, 美 4개 도시 앙코르 투어 확정</dt>
+                                             <dd>
+                                                  블랙핑크(BLACKPINK)가 K팝 걸그룹 최대 규모의 월드투어를 진행 중인 가운데 북미 스타디움 공연을 대폭 확대한다.
+
+16일 YG엔터테인먼트에 따르면 블랙핑크는 오는 8월 12일 미국 뉴저지 메트라이프 스타디움, 8월 18일 라스베이거스 얼리전트 스타디움, 8월 22일 샌프란시스코 오라클 파크, 8월 26일 LA 다저 스타디움에서의 앙코르 공연을 추가 확정했다.
+
+이로써 블랙핑크는 북미에서만 10개 도시 18회차에 걸쳐 팬들과 만나게 됐다. 현지 팬들의 폭발적인 성원과 관심 덕분이다.
+
+애초 북미 투어는 지난 2022년 7개 도시 14회 공연으로 마무리됐으나 추가 공연 요청이 쇄도했고, 이에 화답하고자 앙코르 콘서트를 결정했다고 YG 측은 설명했다.
+                                             </dd>
+                                        </dl>
+                                        <div class="tag">
+                                             <span> # 미국</span>
+                                             <span> # 투어</span>
+                                        </div><!--tag : END-->
+                                   </a>
+                              </div>
+                              <div class="box">
+                                   <a href="">
+                                        <img src="img/new/new02.jpg" alt="">
+                                        <dl>
+                                             <dt>YG 트레저, 日레코드협회 골드디스크 ‘플래티넘’ 인증..32만장 돌파</dt>
+                                             <dd>
+                                                  YG 대형 그룹 트레저가 일본 레코드협회에서 수여하는 ‘플래티넘’ 인증을 받으며, 현지 내 폭발적인 성장세를 다시금 입증했다.
+
+                                                  11일 YG엔터테인먼트에 따르면 트레저는 지난 3월 29일 발매한 일본 첫 오리지널 싱글 ‘Here I Stand’로 현지 레코드협회로부터 골드디스크 ‘플래티넘’ 인증을 획득했다.
+                                                  
+                                                  골드디스크 ‘플래티넘’은 25만 장 이상의 출하량을 기록한 작품에 주어진다. 트레저의 ‘Here I Stand’는 발매 3일 만에 누적 출하량 25만 장을 돌파하더니 5일 만에 약 32만 장(YG엔터테인먼트 집계 기준)의 판매고를 올렸다.     
+                                             </dd>
+                                        </dl>
+                                        <div class="tag">
+                                             <span> # 日레코드협회</span>
+                                             <span> # 골드디스크</span>
+                                             <span> # 플래티넘</span>
+                                        </div><!--tag : END-->
+                                   </a>
+                              </div>
+                              <div class="box">
+                                   <a href="">
+                                        <img src="img/new/new03.jpg" alt="">
+                                        <dl>
+                                             <dt>‘YG 新 막내’ 베이비몬스터, 데뷔 전부터 전세계가 주목한 이유</dt>
+                                             <dd>
+                                                  유튜브 공식 채널 구독자수 142만, 콘텐츠 총 조회수 2억뷰 이상 기록, 전 멤버 개인 퍼포먼스 영상 천만뷰 돌파. 베이비 몬스터가 데뷔 전부터 심상치 않은 인기를 보이며 전세계 K팝 팬들을 두근거리게 하고 있다.
+
+YG가 블랙핑크 이후 7년만에 런칭하는 걸그룹 베이비몬스터가 데뷔 전부터 높은 인기를 자랑하며 돌풍을 불고 있다. 알만한 사람들은 이미 유튜브 채널을 구독하고, 티저 영상에 반응하며 가요계의 새로운 별을 맞이하는 분위기다.
+
+정식 데뷔 전 공개한 콘텐츠의 조회수는 압도적이다, YG에서 가장 먼저 공개한 새 그룹 공개 영상은 2개월 만에 3100만뷰를 돌파해고, 멤버별 퍼포먼스 영상도 1000만뷰가 기본적이다, 공식 유튜브 채널 구독자 수는 채널 개설 52일 만에 100만을 돌파했고, 24일 오전 기준 142만명을 기록했다.
+                                             </dd>
+                                        </dl>
+                                        <div class="tag">
+                                             <span> # 미국</span>
+                                             <span> # 투어</span>
+                                        </div><!--tag : END-->
+                                   </a>
+                              </div>
+                              <div class="box">
+                                   <a href="">
+                                        <img src="img/new/new04.jpg" alt="">
+                                        <dl>
+                                             <dt>블랙핑크 리사, 태양 신곡 '슝!' 피처링 협업</dt>
+                                             <dd>
+                                                  가수 태양이 오는 25일 발매하는 EP 음반 '다운 투 얼스'(Down to Earth)의 수록곡 '슝!'에 블랙핑크 리사가 피처링으로 참여한다고 더블랙레이블이 19일 밝혔다.
+
+'슝!'은 중독성 강한 멜로디와 힙합 비트가 어우러진 알앤비(R&B) 트랩 장르의 곡이다.
+
+리사는 이번 곡의 퍼포먼스 비디오에도 출연할 예정이다.
+                                             </dd>
+                                        </dl>
+                                        <div class="tag">
+                                             <span> # 리사 & 태양</span>
+                                             <span> # 피처링</span>
+                                        </div><!--tag : END-->
+                                   </a>
+                              </div>
+                              <div class="box">
+                                   <a href="">
+                                        <img src="img/new/new05.jpg" alt="">
+                                        <dl>
+                                             <dt>‘파격 패션’ 지드래곤, 컴백 예고 “설레는 프로젝트, 차근차근 여러개 준비 중”</dt>
+                                             <dd>
+                                                  그룹 빅뱅 리더이자 솔로 가수 지드래곤(권지용)이 독보적 분위기와 함께 새 앨범을 예고했다.
+
+매거진 하퍼스 바자는 16일 지드래곤의 커버 3종과 인터뷰를 공개했다.
+                                             </dd>
+                                        </dl>
+                                        <div class="tag">
+                                             <span> # 패션</span>
+                                             <span> # 지드레곤</span>
+                                             <span> # 컴백 예고</span>
+                                        </div><!--tag : END-->
+                                   </a>
+                              </div>
+                              <div class="box">
+                                   <a href="">
+                                        <img src="img/new/new06.jpg" alt="">
+                                        <dl>
+                                             <dt>'블랙핑크 이후 7년 만' YG 신인 걸그룹 '베이비몬스터' 데뷔 초읽기</dt>
+                                             <dd>
+                                                  YG 신인 걸그룹 베이비몬스터(BABYMONSTER)의 멤버 7인이 공개됐다.최종 데뷔조 발표를 지켜보는 일곱 멤버들의 모습이 고스란히 담겨 그날의 생생한 감동을 전달받았다.앞서 양현석 총괄 프로듀서가 “베이비몬스터는 기획 초기 단계부터 5명으로 생각하고 있었다”고 밝혀 5인조 데뷔가 유력했던 상황이었다.
+                                             </dd>
+                                        </dl>
+                                        <div class="tag">
+                                             <span> # 7년만</span>
+                                             <span> # YG 신인 걸그룹</span>
+                                             <span> # 베이비몬스터</span>
+                                             <span> # 데뷔</span>
+                                        </div><!--tag : END-->
+                                   </a>
+                              </div><!--box : END-->
+                              <div class="box">
+                                   <a href="">
+                                        <img src="img/new/new07.jpg" alt="">
+                                        <dl>
+                                             <dt>블랙핑크 이후 7년만…"7인조로 대부분 10대 소녀들"</dt>
+                                             <dd>
+                                                  양현석이 신인 걸그룹과 함께 YG엔터테인먼트의 총괄 프로듀서로 복귀했다.
+
+2019년 6월 소속 연예인들의 약물 파동 의혹과 '가수 비아이의 마약 수사 무마 의혹' 등으로 YG의 모든 직책에서 물러난 지 약 3년 6개월 만이다.
+
+YG는 블랙핑크 이후 7년 만에 신인 걸그룹 '베이비몬스터'(BABYMONSTER)도 공개했다.1일 YG는 유튜브 영상과 블로그를 통해 그동안 베일에 싸여있던 7인조 신인 걸그룹 베이비몬스터를 선보였다.
+                                             </dd>
+                                        </dl>
+                                        <div class="tag">
+                                             <span> # 7인조</span>
+                                             <span> # YG 신인 걸그룹</span>
+                                             <span> # 베이비몬스터</span>
+                                             <span> # 10대</span>
+                                        </div><!--tag : END-->
+                                   </a>
+                              </div><!--box : END-->
+                              <!-- Add more boxes here -->
+                         </div><!--container : END-->
+                    </div><!--in : END-->
+                       <!-- <script src="path/to/masonry.js"></script> -->
+                       <script>
+window.addEventListener('load', function() {
+  var container = document.querySelector('.container');
+  var masonry = new Masonry(container, {
+    itemSelector: '.box', // Masonry 레이아웃을 적용할 아이템 선택자
+//     columnWidth: 0, // 컬럼의 기본 너비. 0으로 설정하면 자동으로 계산됨
+    gutter: 0, // 아이템 간의 간격
+//     fitWidth: true, // 컨테이너의 너비에 맞게 아이템들을 자동으로 조절할지 여부
+//     originLeft: true, // 아이템의 왼쪽 여백을 기준으로 정렬할지 여부
+    originTop: true, // 아이템의 상단 여백을 기준으로 정렬할지 여부
+    stamp: '.stamp', // 레이아웃에서 제외할 아이템 선택자
+//     percentPosition: true, // 컬럼 너비를 퍼센트로 설정할지 여부
+//     horizontalOrder: false, // 아이템을 가로로 정렬할지 여부
+    transitionDuration: '0.4s', // 아이템 이동 애니메이션의 지속 시간
+//     resize: true, // 윈도우 크기 조정 시 재배치를 자동으로 수행할지 여부
+//     initLayout: true // 초기 레이아웃 생성 시 자동으로 아이템 배치를 수행할지 여부
+  });
+});
+
+                       </script>
+                       
+
+
+
+                    <div class="new_Bottom_Move_Text">
+                         <div class="text text2">
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                         </div>
+                    </div><!--new_Bottom_Move_Text : END-->
+                    <div class="new_Bottom_Move_Text move2">
+                         <div class="text text1">
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                         </div>
+                    </div><!--new_Bottom_Move_Text : END-->
+
+
+               </section>
+               <section id="s5">
+                    <div class="select_top_droop_down">
+                         <img src="img/selectTop.jpg" alt="">
+                         <p>TAEYANG EP ALBUM [Down To Earth]</p>
+                         <button>닫고 열고 버튼</button>
+                    </div><!--select_top_droop_down : END-->
+                    <script>
+                         const droopDown = document.querySelector('.select_top_droop_down');
+                         const droopDownBtn = document.querySelector('.select_top_droop_down button');
+                         droopDownBtn.addEventListener('click', function(e) {
+                              droopDown.classList.toggle('on');
+                         });
+                    </script>
+                    <div class="in">
+                         <h4>YG SELECT <span>YG 굿즈를 만나보세요</span></h4>
+                         <div class="seletBtns">
+                              <button class="on">BIGBACKG</button>
+                              <button>BLACKPINK</button>
+                              <button>WINNER</button>
+                              <button>AKMU</button>
+                         </div><!--seletBtns : END-->
+                         <script>
+                              const buttons = document.querySelectorAll('.seletBtns button');
+                          
+                              buttons.forEach(button => {
+                                  button.addEventListener('click', () => {
+                                      // 모든 버튼에서 'on' 클래스 제거
+                                      buttons.forEach(btn => btn.classList.remove('on'));
+                                      
+                                      // 클릭한 버튼에 'on' 클래스 추가
+                                      button.classList.add('on');
+                                  });
+                              });
+                          </script>
+                         <div class="seletContentWrapper">
+                              <div class="swiper selet_slide">
+                                   <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                             <a href="#">
+                                                  <p><img src="img/select/bigbang/bibangHode.jpg" alt=""></p>
+                                                  <dl>
+                                                       <dt>[LASTDANCE] BIGBANG HOODIE</dt>
+                                                       <dd>55,000원</dd>
+                                                       <dd>SOLD OUT</dd>
+                                                  </dl>
+                                             </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                             <a href="#">
+                                                  <p><img src="img/select/bigbang/bigbangStillLife_Cd.jpg" alt=""></p>
+                                                  <dl>
+                                                       <dt>[STILL LIFE] BIGBANG CD</dt>
+                                                       <dd>100,000원</dd>
+                                                       <dd class="new">NEW</dd>
+                                                  </dl>
+                                             </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                             <a href="#">
+                                                  <p><img src="img/select/bigbang/taeyangCd.jpg" alt=""></p>
+                                                  <dl>
+                                                       <dt>TAEYANG EP ALBUM [Down To Earth]</dt>
+                                                       <dd>15,000원</dd>
+                                                       <dd class="new">NEW</dd>
+                                                  </dl>
+                                             </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                             <a href="#">
+                                                  <p><img src="img/select/bigbang/bigbangStillLife.jpg" alt=""></p>
+                                                  <dl>
+                                                       <dt>[STILL LIFE] BIGBANG T-SHIRTS</dt>
+                                                       <dd>35,000원</dd>
+                                                       <dd>SOLD OUT</dd>
+                                                  </dl>
+                                             </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                             <a href="#">
+                                                  <p><img src="img/select/bigbang/madeCd02.gif" alt=""></p>
+                                                  <dl>
+                                                       <dt>BIGBANG MADE SERIES [A]</dt>
+                                                       <dd>12,000원</dd>
+                                                       <dd>SOLD OUT</dd>
+                                                  </dl>
+                                             </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                             <a href="#">
+                                                  <p><img src="img/select/bigbang/madeCd03.gif" alt=""></p>
+                                                  <dl>
+                                                       <dt>BIGBANG MADE SERIES [D]</dt>
+                                                       <dd>12,000원</dd>
+                                                       <dd>SOLD OUT</dd>
+                                                  </dl>
+                                             </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                             <a href="#">
+                                                  <p><img src="img/select/bigbang/madeCd04.gif" alt=""></p>
+                                                  <dl>
+                                                       <dt>BIGBANG MADE SERIES [M]</dt>
+                                                       <dd>12,000원</dd>
+                                                       <dd>SOLD OUT</dd>
+                                                  </dl>
+                                             </a>
+                                        </div>
+                                   </div><!--swiper-wrapper : END-->
+                              </div><!--selet_slide : END-->
+
+                              <script>
+                                   var swiper = new Swiper(".selet_slide", {
+                                     slidesPerView: 1,
+                                     spaceBetween: 10,
+                                     slidesPerView: 3,
+                                   });
+                                 </script>
+
+                         </div><!--seletContentWrapper : END-->
+                    </div><!--in : END-->
+               </section><!--s5 : END-->
+               <section id="s6">
+                    <div class="move_box">
+                         <div class="move_text_box1">
+                             <div class="text">
+                                   <p> YG ENTERTAINMENT  YG SELECT of media AND ARTS.</p>
+                                   <p> YG ENTERTAINMENT  YG SELECT of media AND ARTS.</p>
+                                   <p> YG ENTERTAINMENT  YG SELECT of media AND ARTS.</p>
+                                   <p> YG ENTERTAINMENT  YG SELECT of media AND ARTS.</p>
+                             </div>
+                         </div>
+                         <div class="move_text_box2">
+                             <div class="text">
+                                 <p>YG MULTIMEDIA YG TV</p>
+                                 <p>YG MULTIMEDIA YG TV</p>
+                                 <p>YG MULTIMEDIA YG TV</p>
+                                 <p>YG MULTIMEDIA YG TV</p>
+                             </div>
+                         </div>
+                     </div>
+                    <div class="in">
+                         <div class="left_yg_tv">
+                              <h4>
+                                   YG TV
+                                   <span>YG의 정보를 YOU TUBE 소식으로</span>
+                              </h4>
+                              <iframe width="100%" height="400px" src="https://www.youtube.com/embed/A-IfMVE885A" title="BABYMONSTER - DEBUT MEMBER ANNOUNCEMENT VIDEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                              <dl>
+                                   <dt>BABYMONSTER - DEBUT MEMBER ANNOUNCEMENT VIDEO</dt>
+                                   <dd>
+                                        <span># 신인</span>
+                                        <span># 아이돌</span>
+                                        <span># 7인조</span>
+                                        <span># 드림</span>
+                                        <span># 7년</span>
+                                        <span># 베이비몬스터</span>
+                                        <span># 신인 걸그룹</span>
+                                        <span># 최초 공개</span>
+                                   </dd>
+                              </dl>
+                         </div><!--left_yg_tv : END-->
+                         <div class="right_yg_tv">
+                              <h4>
+                                   YG MULTIMEDIA
+                                   <span>YG의 아티스트 미디어</span>
+                              </h4>
+                              <iframe width="100%" height="400px" src="https://www.youtube.com/embed/XYjVwg63Z7U" title="JISOO - VISUAL FILM #1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                              <dl>
+                                   <dt>JISOO - VISUAL FILM #1</dt>
+                                   <dd>
+                                        <span># JISOO</span>
+                                        <span># 꽃</span>
+                                        <span># FLOWER</span>
+                                        <span># FIRSTSINGLEALBUM</span>
+                                        <span># VISUALFILM</span>
+                                        <span># 2023</span>
+                                        <span># RELEASE</span>
+                                        <span># YG</span>
+                                   </dd>
+                              </dl>
+                         </div><!--right_yg_tv : END-->
+                    </div><!--in : END-->
+               </section><!--s6 : END-->
+               <section id="s7">
+                    <div class="in">
+                         <h4>
+                              # YG SNS
+                              <span># YG의 SNS 정보를 알려드려요</span>
+                         </h4>
+                         <ul class="container_sns">
+                              <li class="box2">
+                                   <a href="#">
+                                        <p><img src="img/sns/sns01.jpg" alt=""></p>
+                                        <dl>
+                                             <dt>BABYMONSTER - DEBUT MEMBER ANNOUNCEMENT REACTION</dt>
+                                             <dd>
+                                                  <span># BABYMONSTER</span>
+                                                  <span># 베이비몬스터</span>
+                                                  <span># DEBUT_MEMBER</span>
+                                                  <span># ANNOUNCEMENT</span>
+                                                  <span># REACTION</span>
+                                                  <span># YG_NEW_BROUP</span>
+                                                  <span># YG</span>
+                                             </dd>
+                                        </dl>
+                                   </a>
+                              </li>
+                              <li class="box2">
+                                   <a href="#">
+                                        <p><img src="img/sns/sns02.jpg" alt=""></p>
+                                        <dl>
+                                             <dt>BABYMONSTER - DEBUT MEMBER ANNOUNCEMENT REACTION</dt>
+                                             <dd>
+                                                  <span># BABYMONSTER</span>
+                                                  <span># 베이비몬스터</span>
+                                                  <span># DEBUT_MEMBER</span>
+                                                  <span># ANNOUNCEMENT</span>
+                                                  <span># REACTION</span>
+                                                  <span># YG_NEW_BROUP</span>
+                                                  <span># YG</span>
+                                             </dd>
+                                        </dl>
+                                   </a>
+                              </li>
+                              <li class="box2">
+                                   <a href="#">
+                                        <p><img src="img/sns/sns03.jpg" alt=""></p>
+                                        <dl>
+                                             <dt>JISOO '꽃(FLOWER)' M/V HITS 200 MILLION</dt>
+                                             <dd>
+                                                  <span># JISOO</span>
+                                                  <span># 꽃</span>
+                                                  <span># FLOWER</span>
+                                                  <span># FIRSTSINGLEALBUM</span>
+                                                  <span># VISUALFILM</span>
+                                                  <span># 2023</span>
+                                                  <span># RELEASE</span>
+                                                  <span># YG</span>
+                                             </dd>
+                                        </dl>
+                                   </a>
+                              </li>
+                              <li class="box2">
+                                   <a href="#">
+                                        <p><img src="img/sns/sns04.jpg" alt=""></p>
+                                        <dl>
+                                             <dt>BLACKPINK 'How You Like That' DANCE PERFORMANCE VIDEO HITS 1.4 BILLION VIEWS 
+                                                  BLINKs worldwide, thank you so much!</dt>
+                                             <dd>
+                                                  <span># BLACKPINK</span>
+                                                  <span># 블랙핑크</span>
+                                                  <span># BPM</span>
+                                                  <span># BORN_PINK</span>
+                                                  <span># MEMORIES</span>
+                                                  <span># @Youtube</span>
+                                             </dd>
+                                        </dl>
+                                   </a>
+                              </li>
+                              <li class="box2">
+                                   <a href="#">
+                                        <p><img src="img/sns/sns06.jpg" alt=""></p>
+                                        <dl>
+                                             <dt>JISOO [ME] OFFLINE FAN SIGNING EVENT</dt>
+                                             <dd>
+                                                  <span># 지수</span>
+                                                  <span># BLACKPINK</span>
+                                                  <span># 블랙핑크</span>
+                                                  <span># FIRSTSINGLEALBUM</span>
+                                                  <span># ME</span>
+                                                  <span># OFFLINE_FANSIGNING_EVENT</span>
+                                                  <span># BLINK</span>
+                                                  <span># YG</span>
+                                             </dd>
+                                        </dl>
+                                   </a>
+                              </li>
+                              <li class="box2">
+                                   <a href="#">
+                                        <p><img src="img/sns/sns05.jpg" alt=""></p>
+                                        <dl>
+                                             <dt>HAPPYBIRTHDAY AKMU SUHYUN</dt>
+                                             <dd>
+                                                  <span># HAPPYBIRTHDAY</span>
+                                                  <span># 이수현</span>
+                                                  <span># 악뮤</span>
+                                                  <span># 20230504</span>
+                                                  <span># AKMU</span>
+                                                  <span># LEESUHYUN</span>
+                                                  <span># SUHYUN</span>
+                                                  <span># YG</span>
+                                             </dd>
+                                        </dl>
+                                   </a>
+                              </li>
+                              <li class="box2">
+                                   <a href="#">
+                                        <p><img src="img/sns/sns07.jpg" alt=""></p>
+                                        <dl>
+                                             <dt>#BLACKPINK 'Pink Venom' M/V HITS 600 MILLION VIEWS 
+                                                  @Youtube
+                                                  BLINKs worldwide, thank you so much!</dt>
+                                             <dd>
+                                                  <span># 블랙핑크</span>
+                                                  <span># PinkVenom</span>
+                                                  <span># MV</span>
+                                                  <span># 600MILLION</span>
+                                                  <span># YOUTUBE</span>
+                                                  <span># YG</span>
+                                             </dd>
+                                        </dl>
+                                   </a>
+                              </li>
+                              <li class="box2">
+                                   <a href="#">
+                                        <p><img src="img/sns/sns08.jpg" alt=""></p>
+                                        <dl>
+                                             <dt>#JISOO FIRST SINGLE ALBUM [ME] COUNTDOWN LIVE COUNTER
+                                                  Originally posted by http://yg-life.com </dt>
+                                             <dd>
+                                                  <span># 블랙핑크</span>
+                                                  <span># PinkVenom</span>
+                                                  <span># MV</span>
+                                                  <span># COUNTDOWNLIVE</span>
+                                                  <span># YOUTUBE</span>
+                                                  <span># YG</span>
+                                             </dd>
+                                        </dl>
+                                   </a>
+                              </li>
+                              <li class="box2">
+                                   <a href="#">
+                                        <p><img src="img/sns/sns09.jpg" alt=""></p>
+                                        <dl>
+                                             <dt>BABYMONSTER 'Last Evaluation' TEASER POSTER </dt>
+                                             <dd>
+                                                  <span># BABYMONSTER</span>
+                                                  <span># 베이비몬스터</span>
+                                                  <span># LASTEVALUATION</span>
+                                                  <span># TEASER_POSTER</span>
+                                                  <span># YG_NEW_GROUP</span>
+                                                  <span># YG</span>
+                                             </dd>
+                                        </dl>
+                                   </a>
+                              </li>
+                              <li class="box2">
+                                   <a href="#">
+                                        <p><img src="img/sns/sns10.jpg" alt=""></p>
+                                        <dl>
+                                             <dt>TREASURE 2023 WELCOMING COLLECTION
+                                                  Pre-order notice has been uploaded.</dt>
+                                             <dd>
+                                                  <span># TREASURE</span>
+                                                  <span># 트레저</span>
+                                                  <span># 2023_WELCOMING</span>
+                                                  <span># 웰커밍컬렉션</span>
+                                                  <span># RELEASE</span>
+                                                  <span># YG</span>
+                                             </dd>
+                                        </dl>
+                                   </a>
+                              </li>
+                              <li class="box2">
+                                   <a href="#">
+                                        <p><img src="img/sns/sns11.jpg" alt=""></p>
+                                        <dl>
+                                             <dt>2023 TREASURE TOUR [HELLO] CONCEPT POSTER</dt>
+                                             <dd>
+                                                  <span># TREASURE</span>
+                                                  <span># 트레저</span>
+                                                  <span># 2023_WELCOMING</span>
+                                                  <span># 웰커밍컬렉션</span>
+                                                  <span># RELEASE</span>
+                                                  <span># YG</span>
+                                             </dd>
+                                        </dl>
+                                   </a>
+                              </li>
+                              <li class="box2">
+                                   <a href="#">
+                                        <p><img src="img/sns/sns12.jpg" alt=""></p>
+                                        <dl>
+                                             <dt>TREASURE [NIGHT GARDEN POP-UP]
+                                                  COMING SOON!</dt>
+                                             <dd>
+                                                  <span># TREASURE</span>
+                                                  <span># 트레저</span>
+                                                  <span># POP-UP</span>
+                                                  <span># GARDEN</span>
+                                                  <span># NIGHT</span>
+                                                  <span># YG</span>
+                                             </dd>
+                                        </dl>
+                                   </a>
+                              </li>
+                              <li class="box2">
+                                   <a href="#">
+                                        <p><img src="img/sns/sns13.jpg" alt=""></p>
+                                        <dl>
+                                             <dt>#JISOO [ME] OFFLINE FAN SIGNING EVENT</dt>
+                                             <dd>
+                                                  <span># 지수</span>
+                                                  <span># 블랙핑크</span>
+                                                  <span># BLACKPINK</span>
+                                                  <span># JISOO</span>
+                                                  <span># ME</span>
+                                                  <span># YG</span>
+                                             </dd>
+                                        </dl>
+                                   </a>
+                              </li>
+                         </ul>
+                         <script>
+window.addEventListener('load', function() {
+     var containerSns = document.querySelector('.container_sns');
+     var masonry = new Masonry(containerSns, {
+          itemSelector: '.box2', // Masonry 레이아웃을 적용할 아이템 선택자
+          //     columnWidth: 0, // 컬럼의 기본 너비. 0으로 설정하면 자동으로 계산됨
+          gutter: 0, // 아이템 간의 간격
+          //     fitWidth: true, // 컨테이너의 너비에 맞게 아이템들을 자동으로 조절할지 여부
+          //     originLeft: true, // 아이템의 왼쪽 여백을 기준으로 정렬할지 여부
+          originTop: true, // 아이템의 상단 여백을 기준으로 정렬할지 여부
+          stamp: '.stamp', // 레이아웃에서 제외할 아이템 선택자
+          //     percentPosition: true, // 컬럼 너비를 퍼센트로 설정할지 여부
+          //     horizontalOrder: false, // 아이템을 가로로 정렬할지 여부
+          transitionDuration: '0.4s', // 아이템 이동 애니메이션의 지속 시간
+          //     resize: true, // 윈도우 크기 조정 시 재배치를 자동으로 수행할지 여부
+          //     initLayout: true // 초기 레이아웃 생성 시 자동으로 아이템 배치를 수행할지 여부
+     });
+});
+                         </script>
+                    </div><!--in : END-->
+                    <footer>
+                         <div class="in">
+                              <ul>
+                                   <li><a href="#">ABOUT YG</a></li>
+                                   <li><a href="#">YG RECRUIT</a></li>
+                                   <li><a href="#">CUSTOMER</a></li>
+                                   <li><a href="#">CENTER</a></li>
+                                   <li><a href="#">AUDITION</a></li>
+                                   <li><a href="#">개인정보처리방침</a></li>
+                              </ul>
+                              <p class="logo"><img src="img/logo_ygfamily_h.svg" alt="yg로고"></p>
+                              <dl>
+                                   <dt>경기도 시흥시 수인로 1753-45번길 도창동 184번지</dt>
+                                   <dd>TELL 010-8276-1330 </dd>
+                              </dl>
+                         </div><!--in : END-->
+                         <div class="move_text_box_f">
+                              <div class="text text2">
+                                   <p> YG ENTERTAINMENT  YG SELECT of media AND ARTS.</p>
+                                   <p> YG ENTERTAINMENT  YG SELECT of media AND ARTS.</p>
+                                   <p> YG ENTERTAINMENT  YG SELECT of media AND ARTS.</p>
+                                   <p> YG ENTERTAINMENT  YG SELECT of media AND ARTS.</p>
+                              </div>
+                         </div>
+                    </footer>
+               </section><!--s7 : END-->
+          </div><!--main_left : END-->
+
+     </div><!--main: END-->
+     <script src="js/main.js" type="text/javascript"></script>
+     <script>
+          ///////////////////////////유튜브 영상 보안정책 오류 안뜨게하는 코드///////////////////////////////////////
+          const express = require('express');
+          const app = express();
+
+          // CORS 허용 설정
+          app.use(function(req, res, next) {
+               res.header('Access-Control-Allow-Origin', '*');
+               res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+               res.header('Access-Control-Allow-Headers', 'Content-Type');
+               next();
+          });
+
+          // 나머지 서버 로직 작성...
+
+          // 서버 시작
+          app.listen(3000, function() {
+               console.log('서버가 3000 포트에서 실행 중입니다.');
+          });
+
+     </script>
+
+</body>
+</html>
