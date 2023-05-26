@@ -1121,7 +1121,6 @@ section#s2 h4 {
   margin: -10px;
   justify-content: flex-start; /* 가로 정렬 설정 */
   align-content: flex-start; /* 세로 정렬 설정 */
-  margin: 0 auto;
 }
 
 .box {
@@ -1779,6 +1778,9 @@ footer .move_text_box_f .text p {
     width: 200px;
     line-height: 22px;
     margin-top: 15px;
+  }
+  .container {
+    margin: 0 auto;
   }
   .box {
     width: 260px !important;
