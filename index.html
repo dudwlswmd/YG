@@ -15,41 +15,67 @@
 <body>
      <header>
           <div class="head">
-               <h1>
-                    <a href="">
-                         <img src="img/logo_ygfamily_h.svg" alt="LOGO1" class="off">
-                         <img src="img/logo_ygfamily.svg" alt="LOGO2" class="on">
-                    </a> 
-               </h1>
-               <nav>
-                    <ul>
-                         <li><a href="#"><span>NOTICE</span></a></li>
-                         <li><a href="#"><span>NEWS</span></a></li>
-                         <li><a href="#"><span>ARTISTS</span></a></li>
-                         <li><a href="#"><span>ACTORS</span></a></li>
-                         <li><a href="#"><span>MULTIMEDIA</span></a></li>
-                         <li><a href="#"><span>SELECT</span></a></li>
-                         <li><a href="#"><span>WITH</span></a></li>
-                    </ul>
-               </nav>
+               <div class="in">
+                    <h1>
+                         <a href="">
+                              <img src="img/logo_ygfamily_h.svg" alt="LOGO1" class="off">
+                              <img src="img/logo_ygfamily.svg" alt="LOGO2" class="on">
+                         </a> 
+                    </h1>
+                    <nav>
+                         <ul>
+                              <li><a href="#"><span>NOTICE<strong></strong></span><p>YG ENTERTAINMENT NOTICE</p></a></li>
+                              <li><a href="#"><span>NEWS</span><p>YG ENTERTAINMENT NEW</p></a></li>
+                              <li><a href="#"><span>ARTISTS</span><p>YG ENTERTAINMENT ARTISTS</p></a></li>
+                              <li><a href="#"><span>ACTORS</span><p>YG ENTERTAINMENT ACTORS</p></a></li>
+                              <li><a href="#"><span>MULTIMEDIA</span><p>YG ENTERTAINMENT MULTIMEDIA</p></a></li>
+                              <li><a href="#"><span>SELECT</span><p>YG ENTERTAINMENT SELECT</p></a></li>
+                              <li><a href="#"><span>WITH</span><p>YG ENTERTAINMENT WITH</p></a></li>
+                         </ul>
+                    </nav>
+               </div><!--in : END-->
           </div><!--head : END-->
      </header>
+
      <div class="main">
           <div class="main_right">
-               <div class="hamMenu">
+               <div class="hamMenu ">
                     <span></span>
                </div><!--hamMenu-->
-
-               <ul>
+               <ul class="menu_list">
                     <li class="on"><a href="#s1" >TOP</a></li>
                     <li><a href="#s2">CONCERT</a></li>
                     <li><a href="#s3">ABOUT</a></li>
                     <li><a href="#s4">NEWS</a></li>
                     <li><a href="#s5">SELECT</a></li>
                     <li><a href="#s6">YG TV</a></li>
-                    <li><a href="#s7">RESUME</a></li>
+                    <li><a href="#s7">YG SNS</a></li>
+               </ul>
+               <ul class="snsList">
+                    <li><a href="">인스타</a></li>
+                    <li><a href="">유튜브</a></li>
+                    <li><a href="">페이스북</a></li>
+                    <li><a href="">트위터</a></li>
                </ul>
           </div><!--main_right : END-->
+          <script>
+               const menuBtn = document.querySelector('.hamMenu');
+               const head = document.querySelector('.head');
+     
+               menuBtn.addEventListener('click',function(){
+                    menuBtn.classList.toggle('on')
+                    head.classList.toggle('on')
+               });
+               // menuBtn.addEventListener('click', function() {
+               // if (menuBtn.classList.contains('on')) {
+               //      // 'on' 클래스가 이미 존재하는 경우
+               //  menuBtn.classList.remove('on'); // 'on' 클래스 제거
+               // } else {
+               //      // 'on' 클래스가 존재하지 않는 경우
+               //  menuBtn.classList.add('on'); // 'on' 클래스 추가
+               // }
+               // });
+          </script>
           <div class="main_left">
                <section id="s1">
                     <div class="visual">
@@ -66,7 +92,6 @@
                               <video autoplay loop muted>
                                    <source src="video/main.mp4" type="video/mp4">
                               </video>
-                                 
                          </div>
                          <div class="swiper-slide">
                               <div class="bg"></div>
@@ -232,7 +257,7 @@
                <section id="s2">
      
                     <div class="cursor">
-                         <img src="" alt="fllow_img">
+                         <img  alt="fllow_img">
                     </div>
                     <h3>CONCERT</h3>
                     <h4>YG의 콘서트 일정을 확인해보세요.</h4>
@@ -243,71 +268,9 @@
                          </dl>
                          <div class="swiper concertList_swiper">
 
-                              <div class="swiper-wrapper">
-                                   <div class="swiper-slide my-div" data-img="img/con01.jpg">
-                                        <a href="#">
-                                             <p>D-4</p>
-                                             <dl>
-                                                  <dt>09.24</dt>
-                                                  <dd>블랙핑크 태국 콘서트</dd>
-                                             </dl>
-                                        </a>
-                                   </div>
-                                   <div class="swiper-slide my-div" data-img="img/con02.jpg">
-                                        <a href="#">
-                                             <p>D-9</p>
-                                             <dl>
-                                                  <dt>09.29</dt>
-                                                  <dd>블랙핑크 태국 오리진 콘서트</dd>
-                                             </dl>
-                                        </a>
-                                   </div>
-                                   <div class="swiper-slide" data-img="img/con03.jpg">
-                                        <a href="#">
-                                             <p>D-19</p>
-                                             <dl>
-                                                  <dt>10.08</dt>
-                                                  <dd>위너 더서클 콘서트</dd>
-                                             </dl>
-                                        </a>
-                                   </div>
-                                   <div class="swiper-slide" data-img="img/con04.jpeg">
-                                        <a href="#">
-                                             <p>D-20</p>
-                                             <dl>
-                                                  <dt>10.09</dt>
-                                                  <dd>위너 더 클리어 콘서트</dd>
-                                             </dl>
-                                        </a>
-                                   </div>
-                                   <div class="swiper-slide" data-img="img/con05.jpg">
-                                        <a href="#">
-                                             <p>D-23</p>
-                                             <dl>
-                                                  <dt>10.12</dt>
-                                                  <dd>블랙핑크 미국 콘서트</dd>
-                                             </dl>
-                                        </a>
-                                   </div>
-                                   <div class="swiper-slide" data-img="img/con06.jpg">
-                                        <a href="#">
-                                             <p>D-24</p>
-                                             <dl>
-                                                  <dt>10.13</dt>
-                                                  <dd>블랙핑크 미국 투어 START!</dd>
-                                             </dl>
-                                        </a>
-                                   </div>
-                                   <div class="swiper-slide"  data-img="img/con07.avif">
-                                        <a href="#">
-                                             <p>D-25</p>
-                                             <dl>
-                                                  <dt>10.14</dt>
-                                                  <dd>블랙핑크 미국 투어 START!</dd>
-                                             </dl>
-                                        </a>
-                                   </div>
-                              </div>
+                              <ul class="swiper-wrapper list_bu">
+                                   <!-- 제이슨 넣는곳 -->
+                              </ul>
                          </div><!--concertList_swiper : END-->
                          <div class="concertBtns">
                               <div class="swiper-button-next next"></div>
@@ -322,15 +285,18 @@
                                         prevEl: ".swiper-button-prev"
                               },
                                    breakpoints: {
-                                        640: {
+                                        300: {
                                              slidesPerView: 2,
+                                        },
+                                        870: {
+                                             slidesPerView: 4,
                                              spaceBetween: 20,
                                         },
-                                        768: {
+                                        1000: {
                                              slidesPerView: 4,
                                              spaceBetween: 40,
                                         },
-                                        1024: {
+                                        1300: {
                                              slidesPerView: 5,
                                              spaceBetween: 30,
                                         },
@@ -338,50 +304,83 @@
                               });
 
 
+     fetch('data.json')
+          .then(response => response.json())
+          .then(soccer => {
+               const ul = document.querySelector('.swiper-wrapper.list_bu');
+
+               soccer.concert.forEach((elLi) => {
+                    const { img, Dday, data, content } = elLi;
+                    const newLi = document.createElement('li');
+                    newLi.classList.add('swiper-slide', 'my-div');
+                    newLi.dataset.img = img;
+                    newLi.innerHTML = `
+                         <a href="#">
+                              <p>${Dday}</p>
+                              <dl>
+                                   <dt>${data}</dt>
+                                   <dd>${content}</dd>
+                              </dl>
+                         </a>
+                    `;
+                    ul.append(newLi);
+               });
+
+               concertList.update();
+               domUpdate();
+     })//then : END
+
+     .catch(error => console.error(error));
+
+     function domUpdate(){
+          let cursor = document.querySelector('.cursor');
+          let listItems = document.querySelectorAll('.concertList_swiper .swiper-slide');
+
+          let currentImgSrc = '';
+
+          document.addEventListener('mousemove', function(e) {
+               var mouseX = e.pageX;
+               var mouseY = e.pageY;
+
+               cursor.style.left = mouseX + 'px';
+               cursor.style.top = mouseY + 'px';
+
+               for (let listItem of listItems) {
+                    if (listItem.contains(e.target)) {
+                         let imgSrc = listItem.dataset.img;
+                         console.log(imgSrc);
+                         if (currentImgSrc !== imgSrc) {
+                              currentImgSrc = imgSrc;
+                              cursor.querySelector('img').src = imgSrc;
+                              cursor.style.display = 'block';
+                         }
+                    break;
+                    } else {
+                         currentImgSrc = '';
+                         cursor.style.display = 'none';
+                         // console.log('sss'); 
+                    }
+               }
+          });
+     }//domUpdate : END
 
 
-let cursor = document.querySelector('.cursor');
-let listItems = document.querySelectorAll('.concertList_swiper .swiper-slide');
-let currentImgSrc = '';
 
-document.addEventListener('DOMContentLoaded', function() {
-     document.addEventListener('mousemove', function(e) {
-          var mouseX = e.pageX;
-          var mouseY = e.pageY;
 
-          cursor.style.left = mouseX + 'px';
-          cursor.style.top = mouseY + 'px';
 
-          for (let listItem of listItems) {
-          if (listItem.contains(e.target)) {
-          let imgSrc = listItem.dataset.img;
-          if (currentImgSrc !== imgSrc) {
-               currentImgSrc = imgSrc;
-               cursor.querySelector('img').src = imgSrc;
-               cursor.style.display = 'block';
-          }
-          break;
-          } else {
-          currentImgSrc = '';
-          cursor.style.display = 'none';
-          }
-          }
-     });
-});
-
-                            </script>
+               </script>
                     </div><!--concertList : END-->
                </section>
                <section id="s3">
                     <div class="move_text_box">
                          <div class="text">
-                             <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
-                             <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
-                             <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
-                             <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
+                              <p> YG ENTERTAINMENT  YG ENTERTAINMENT of media AND ARTS.</p>
                          </div>
-                     </div><!--move_text_box : END-->
-                     <div class="in">
+                    </div><!--move_text_box : END-->
+                    <div class="in">
                          <div class="title_box">
                               <button class="sect_tit on">
                                    YG ENTERTAINMENT
@@ -627,184 +626,69 @@ slides.forEach((slide) => {
                               <span>YG의 소식과 콘서트를 확인해보세요</span>
                          </h4>
                          <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
-                         <div class="container">
-                              <div class="box">
-                                   <a href="">
-                                        <img src="img/new/new01.jpg" alt="지수사진">
-                                        <dl>
-                                             <dt>블랙핑크 지수 ‘꽃’, 글로벌 유튜브 송·뮤비 차트 1위</dt>
-                                             <dd>
-                                                  걸그룹 블랙핑크의 지수가 발표한 솔로 음반 타이틀곡 ‘꽃’이 글로벌 유튜브 송 ‘톱 100’ 차트에서 2주 연속 1위를 차지했다고 소속사 YG엔터테인먼트가 16일 밝혔다.
-                                                  지수의 ‘꽃’은 전 세계에서 가장 많이 본 뮤직비디오 부문에서는 지난주 1위에 이어 2위를 기록했다. ‘꽃’ 뮤직비디오는 공개 8일 만에 1억뷰를 넘어서기도 했다.
-                                                  한편, 블랙핑크는 진행 중인 월드투어 ‘본 핑크'(BORN PINK)가 호평을 받으면서 북미 스타디움 공연 추가 개최를 발표했다
-                                             </dd>
-                                        </dl>
-                                        <div class="tag">
-                                             <span> # 글로벌</span>
-                                             <span> # 차트 1위</span>
-                                        </div><!--tag : END-->
-                                   </a>
-                              </div>
-                              <div class="box">
-                                   <a href="">
-                                        <img src="img/con06.jpg" alt="블핑 콘서트 껴안는 사진">
-                                        <dl>
-                                             <dt>블랙핑크, 美 4개 도시 앙코르 투어 확정</dt>
-                                             <dd>
-                                                  블랙핑크(BLACKPINK)가 K팝 걸그룹 최대 규모의 월드투어를 진행 중인 가운데 북미 스타디움 공연을 대폭 확대한다.
-
-16일 YG엔터테인먼트에 따르면 블랙핑크는 오는 8월 12일 미국 뉴저지 메트라이프 스타디움, 8월 18일 라스베이거스 얼리전트 스타디움, 8월 22일 샌프란시스코 오라클 파크, 8월 26일 LA 다저 스타디움에서의 앙코르 공연을 추가 확정했다.
-
-이로써 블랙핑크는 북미에서만 10개 도시 18회차에 걸쳐 팬들과 만나게 됐다. 현지 팬들의 폭발적인 성원과 관심 덕분이다.
-
-애초 북미 투어는 지난 2022년 7개 도시 14회 공연으로 마무리됐으나 추가 공연 요청이 쇄도했고, 이에 화답하고자 앙코르 콘서트를 결정했다고 YG 측은 설명했다.
-                                             </dd>
-                                        </dl>
-                                        <div class="tag">
-                                             <span> # 미국</span>
-                                             <span> # 투어</span>
-                                        </div><!--tag : END-->
-                                   </a>
-                              </div>
-                              <div class="box">
-                                   <a href="">
-                                        <img src="img/new/new02.jpg" alt="">
-                                        <dl>
-                                             <dt>YG 트레저, 日레코드협회 골드디스크 ‘플래티넘’ 인증..32만장 돌파</dt>
-                                             <dd>
-                                                  YG 대형 그룹 트레저가 일본 레코드협회에서 수여하는 ‘플래티넘’ 인증을 받으며, 현지 내 폭발적인 성장세를 다시금 입증했다.
-
-                                                  11일 YG엔터테인먼트에 따르면 트레저는 지난 3월 29일 발매한 일본 첫 오리지널 싱글 ‘Here I Stand’로 현지 레코드협회로부터 골드디스크 ‘플래티넘’ 인증을 획득했다.
-                                                  
-                                                  골드디스크 ‘플래티넘’은 25만 장 이상의 출하량을 기록한 작품에 주어진다. 트레저의 ‘Here I Stand’는 발매 3일 만에 누적 출하량 25만 장을 돌파하더니 5일 만에 약 32만 장(YG엔터테인먼트 집계 기준)의 판매고를 올렸다.     
-                                             </dd>
-                                        </dl>
-                                        <div class="tag">
-                                             <span> # 日레코드협회</span>
-                                             <span> # 골드디스크</span>
-                                             <span> # 플래티넘</span>
-                                        </div><!--tag : END-->
-                                   </a>
-                              </div>
-                              <div class="box">
-                                   <a href="">
-                                        <img src="img/new/new03.jpg" alt="">
-                                        <dl>
-                                             <dt>‘YG 新 막내’ 베이비몬스터, 데뷔 전부터 전세계가 주목한 이유</dt>
-                                             <dd>
-                                                  유튜브 공식 채널 구독자수 142만, 콘텐츠 총 조회수 2억뷰 이상 기록, 전 멤버 개인 퍼포먼스 영상 천만뷰 돌파. 베이비 몬스터가 데뷔 전부터 심상치 않은 인기를 보이며 전세계 K팝 팬들을 두근거리게 하고 있다.
-
-YG가 블랙핑크 이후 7년만에 런칭하는 걸그룹 베이비몬스터가 데뷔 전부터 높은 인기를 자랑하며 돌풍을 불고 있다. 알만한 사람들은 이미 유튜브 채널을 구독하고, 티저 영상에 반응하며 가요계의 새로운 별을 맞이하는 분위기다.
-
-정식 데뷔 전 공개한 콘텐츠의 조회수는 압도적이다, YG에서 가장 먼저 공개한 새 그룹 공개 영상은 2개월 만에 3100만뷰를 돌파해고, 멤버별 퍼포먼스 영상도 1000만뷰가 기본적이다, 공식 유튜브 채널 구독자 수는 채널 개설 52일 만에 100만을 돌파했고, 24일 오전 기준 142만명을 기록했다.
-                                             </dd>
-                                        </dl>
-                                        <div class="tag">
-                                             <span> # 미국</span>
-                                             <span> # 투어</span>
-                                        </div><!--tag : END-->
-                                   </a>
-                              </div>
-                              <div class="box">
-                                   <a href="">
-                                        <img src="img/new/new04.jpg" alt="">
-                                        <dl>
-                                             <dt>블랙핑크 리사, 태양 신곡 '슝!' 피처링 협업</dt>
-                                             <dd>
-                                                  가수 태양이 오는 25일 발매하는 EP 음반 '다운 투 얼스'(Down to Earth)의 수록곡 '슝!'에 블랙핑크 리사가 피처링으로 참여한다고 더블랙레이블이 19일 밝혔다.
-
-'슝!'은 중독성 강한 멜로디와 힙합 비트가 어우러진 알앤비(R&B) 트랩 장르의 곡이다.
-
-리사는 이번 곡의 퍼포먼스 비디오에도 출연할 예정이다.
-                                             </dd>
-                                        </dl>
-                                        <div class="tag">
-                                             <span> # 리사 & 태양</span>
-                                             <span> # 피처링</span>
-                                        </div><!--tag : END-->
-                                   </a>
-                              </div>
-                              <div class="box">
-                                   <a href="">
-                                        <img src="img/new/new05.jpg" alt="">
-                                        <dl>
-                                             <dt>‘파격 패션’ 지드래곤, 컴백 예고 “설레는 프로젝트, 차근차근 여러개 준비 중”</dt>
-                                             <dd>
-                                                  그룹 빅뱅 리더이자 솔로 가수 지드래곤(권지용)이 독보적 분위기와 함께 새 앨범을 예고했다.
-
-매거진 하퍼스 바자는 16일 지드래곤의 커버 3종과 인터뷰를 공개했다.
-                                             </dd>
-                                        </dl>
-                                        <div class="tag">
-                                             <span> # 패션</span>
-                                             <span> # 지드레곤</span>
-                                             <span> # 컴백 예고</span>
-                                        </div><!--tag : END-->
-                                   </a>
-                              </div>
-                              <div class="box">
-                                   <a href="">
-                                        <img src="img/new/new06.jpg" alt="">
-                                        <dl>
-                                             <dt>'블랙핑크 이후 7년 만' YG 신인 걸그룹 '베이비몬스터' 데뷔 초읽기</dt>
-                                             <dd>
-                                                  YG 신인 걸그룹 베이비몬스터(BABYMONSTER)의 멤버 7인이 공개됐다.최종 데뷔조 발표를 지켜보는 일곱 멤버들의 모습이 고스란히 담겨 그날의 생생한 감동을 전달받았다.앞서 양현석 총괄 프로듀서가 “베이비몬스터는 기획 초기 단계부터 5명으로 생각하고 있었다”고 밝혀 5인조 데뷔가 유력했던 상황이었다.
-                                             </dd>
-                                        </dl>
-                                        <div class="tag">
-                                             <span> # 7년만</span>
-                                             <span> # YG 신인 걸그룹</span>
-                                             <span> # 베이비몬스터</span>
-                                             <span> # 데뷔</span>
-                                        </div><!--tag : END-->
-                                   </a>
-                              </div><!--box : END-->
-                              <div class="box">
-                                   <a href="">
-                                        <img src="img/new/new07.jpg" alt="">
-                                        <dl>
-                                             <dt>블랙핑크 이후 7년만…"7인조로 대부분 10대 소녀들"</dt>
-                                             <dd>
-                                                  양현석이 신인 걸그룹과 함께 YG엔터테인먼트의 총괄 프로듀서로 복귀했다.
-
-2019년 6월 소속 연예인들의 약물 파동 의혹과 '가수 비아이의 마약 수사 무마 의혹' 등으로 YG의 모든 직책에서 물러난 지 약 3년 6개월 만이다.
-
-YG는 블랙핑크 이후 7년 만에 신인 걸그룹 '베이비몬스터'(BABYMONSTER)도 공개했다.1일 YG는 유튜브 영상과 블로그를 통해 그동안 베일에 싸여있던 7인조 신인 걸그룹 베이비몬스터를 선보였다.
-                                             </dd>
-                                        </dl>
-                                        <div class="tag">
-                                             <span> # 7인조</span>
-                                             <span> # YG 신인 걸그룹</span>
-                                             <span> # 베이비몬스터</span>
-                                             <span> # 10대</span>
-                                        </div><!--tag : END-->
-                                   </a>
-                              </div><!--box : END-->
-                              <!-- Add more boxes here -->
+                         <div class="container news">
+                              <!--json 영역-->
                          </div><!--container : END-->
                     </div><!--in : END-->
-                       <!-- <script src="path/to/masonry.js"></script> -->
-                       <script>
+                    <!-- <script src="path/to/masonry.js"></script> -->
+                    <script>
 window.addEventListener('load', function() {
-  var container = document.querySelector('.container');
-  var masonry = new Masonry(container, {
-    itemSelector: '.box', // Masonry 레이아웃을 적용할 아이템 선택자
-//     columnWidth: 0, // 컬럼의 기본 너비. 0으로 설정하면 자동으로 계산됨
-    gutter: 0, // 아이템 간의 간격
-//     fitWidth: true, // 컨테이너의 너비에 맞게 아이템들을 자동으로 조절할지 여부
-//     originLeft: true, // 아이템의 왼쪽 여백을 기준으로 정렬할지 여부
-    originTop: true, // 아이템의 상단 여백을 기준으로 정렬할지 여부
-    stamp: '.stamp', // 레이아웃에서 제외할 아이템 선택자
-//     percentPosition: true, // 컬럼 너비를 퍼센트로 설정할지 여부
-//     horizontalOrder: false, // 아이템을 가로로 정렬할지 여부
-    transitionDuration: '0.4s', // 아이템 이동 애니메이션의 지속 시간
-//     resize: true, // 윈도우 크기 조정 시 재배치를 자동으로 수행할지 여부
-//     initLayout: true // 초기 레이아웃 생성 시 자동으로 아이템 배치를 수행할지 여부
-  });
+     var container = document.querySelector('.container');
+     var masonry = new Masonry(container, {
+          itemSelector: '.box', // Masonry 레이아웃을 적용할 아이템 선택자
+          columnWidth: 0, // 컬럼의 기본 너비. 0으로 설정하면 자동으로 계산됨
+          gutter: 20, // 아이템 간의 간격
+          fitWidth: true, // 컨테이너의 너비에 맞게 아이템들을 자동으로 조절할지 여부
+          isFitWidth:true,
+          //     originLeft: true, // 아이템의 왼쪽 여백을 기준으로 정렬할지 여부
+          originTop: true, // 아이템의 상단 여백을 기준으로 정렬할지 여부
+          stamp: '.stamp', // 레이아웃에서 제외할 아이템 선택자
+          //     percentPosition: true, // 컬럼 너비를 퍼센트로 설정할지 여부
+          //     horizontalOrder: false, // 아이템을 가로로 정렬할지 여부
+          transitionDuration: '0.5s', // 아이템 이동 애니메이션의 지속 시간
+          resize: true, // 윈도우 크기 조정 시 재배치를 자동으로 수행할지 여부
+          //     initLayout: true // 초기 레이아웃 생성 시 자동으로 아이템 배치를 수행할지 여부
+
+     });
 });
 
-                       </script>
-                       
+
+
+
+     fetch('data.json')
+          .then(response => response.json())
+          .then(soccer => {
+               const divNews = document.querySelector('.container.news');
+
+               soccer.news.forEach((newsItem) => {
+                    const { img, title, text, teg } = newsItem;
+                    const tegSpan = Object.keys(teg[0]).map((key) => {
+                         return `<span>${teg[0][key]}</span>`;
+                    }).join('');
+                    const box = document.createElement('div');
+                    box.classList.add('box');
+                    box.innerHTML = `
+                         <a href="">
+                              <img src="${img}" alt="sns 이미지들">
+                              <dl>
+                                   <dt>${title}</dt>
+                                   <dd>
+                                        ${text}
+                                   </dd>
+                              </dl>
+                              <div class="tag">
+                                   ${tegSpan}
+                              </div><!--tag : END-->
+                         </a>
+                    `;
+                    divNews.append(box);
+               });
+
+     })//then : END
+
+
+
+                    </script>
 
 
 
@@ -847,28 +731,64 @@ window.addEventListener('load', function() {
                     <div class="in">
                          <h4>YG SELECT <span>YG 굿즈를 만나보세요</span></h4>
                          <div class="seletBtns">
-                              <button class="on">BIGBACKG</button>
-                              <button>BLACKPINK</button>
-                              <button>WINNER</button>
-                              <button>AKMU</button>
+                              <button class="on bigbackgTab" data-group='BIGBANG'>BIGBANG</button>
+                              <button class="blackpinkTab" data-group="BLACKPINK">BLACKPINK</button>
+                              <button class="winnerTab" data-group="WINNER">WINNER</button>
+                              <button class="akmuTab" data-group="AKMU">AKMU</button>
                          </div><!--seletBtns : END-->
                          <script>
                               const buttons = document.querySelectorAll('.seletBtns button');
-                          
-                              buttons.forEach(button => {
-                                  button.addEventListener('click', () => {
-                                      // 모든 버튼에서 'on' 클래스 제거
-                                      buttons.forEach(btn => btn.classList.remove('on'));
-                                      
-                                      // 클릭한 버튼에 'on' 클래스 추가
-                                      button.classList.add('on');
-                                  });
-                              });
-                          </script>
+                              const firstButton = buttons[0]; // 첫 번째 버튼 선택
+
+                              firstButton.classList.add('on'); // 첫 번째 버튼에 'on' 클래스 추가
+                              getData(firstButton.dataset.group); // 첫 번째 배열 데이터 가져오기
+                              
+                                   buttons.forEach(button => {
+                                        button.addEventListener('click', (e) => {
+                                             // 모든 버튼에서 'on' 클래스 제거
+                                             buttons.forEach(btn => btn.classList.remove('on'));
+                                             // 클릭한 버튼에 'on' 클래스 추가
+                                             button.classList.add('on');
+                                             getData(e.target.dataset.group);
+                                        });
+                                   });
+
+                                   function getData(key){
+                                        fetch('data.json')
+                                             .then(response => response.json())
+                                             .then(selects => {
+                                                  const ul = document.querySelector('.selet_slide_list_bu');
+                                                  ul.innerHTML = '';
+                                                  
+                                                  selects[key].map((param)=>{
+                                                       const { img, title, price, sold,sold_new } = param;
+                                                       console.log(img);
+                                                       const newLi = document.createElement('li');
+                                                       newLi.classList.add('swiper-slide', 'my-div');
+                                                       newLi.innerHTML = `
+                                                                 <a href="#">
+                                                                      <p><img src="${img}" alt="${title}"></p>
+                                                                      <dl>
+                                                                           <dt>${title}</dt>
+                                                                           <dd>${price}</dd>
+                                                                           <dd class="${sold_new}">${sold}</dd>
+                                                                      </dl>
+                                                                 </a>
+                                                       `;
+                                                       ul.append(newLi);
+                                                  })
+                                             
+                                                  selet_slide.update();
+                                        })//then : END
+
+                                        .catch(error => console.error(error));
+
+                                   }
+                         </script>
                          <div class="seletContentWrapper">
                               <div class="swiper selet_slide">
-                                   <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
+                                   <ul class="swiper-wrapper selet_slide_list_bu">
+                                        <!-- <li class="swiper-slide">
                                              <a href="#">
                                                   <p><img src="img/select/bigbang/bibangHode.jpg" alt=""></p>
                                                   <dl>
@@ -877,8 +797,8 @@ window.addEventListener('load', function() {
                                                        <dd>SOLD OUT</dd>
                                                   </dl>
                                              </a>
-                                        </div>
-                                        <div class="swiper-slide">
+                                        </li>
+                                        <li class="swiper-slide">
                                              <a href="#">
                                                   <p><img src="img/select/bigbang/bigbangStillLife_Cd.jpg" alt=""></p>
                                                   <dl>
@@ -887,8 +807,8 @@ window.addEventListener('load', function() {
                                                        <dd class="new">NEW</dd>
                                                   </dl>
                                              </a>
-                                        </div>
-                                        <div class="swiper-slide">
+                                        </li>
+                                        <li class="swiper-slide">
                                              <a href="#">
                                                   <p><img src="img/select/bigbang/taeyangCd.jpg" alt=""></p>
                                                   <dl>
@@ -897,8 +817,8 @@ window.addEventListener('load', function() {
                                                        <dd class="new">NEW</dd>
                                                   </dl>
                                              </a>
-                                        </div>
-                                        <div class="swiper-slide">
+                                        </li>
+                                        <li class="swiper-slide">
                                              <a href="#">
                                                   <p><img src="img/select/bigbang/bigbangStillLife.jpg" alt=""></p>
                                                   <dl>
@@ -907,8 +827,8 @@ window.addEventListener('load', function() {
                                                        <dd>SOLD OUT</dd>
                                                   </dl>
                                              </a>
-                                        </div>
-                                        <div class="swiper-slide">
+                                        </li>
+                                        <li class="swiper-slide">
                                              <a href="#">
                                                   <p><img src="img/select/bigbang/madeCd02.gif" alt=""></p>
                                                   <dl>
@@ -917,8 +837,8 @@ window.addEventListener('load', function() {
                                                        <dd>SOLD OUT</dd>
                                                   </dl>
                                              </a>
-                                        </div>
-                                        <div class="swiper-slide">
+                                        </li>
+                                        <li class="swiper-slide">
                                              <a href="#">
                                                   <p><img src="img/select/bigbang/madeCd03.gif" alt=""></p>
                                                   <dl>
@@ -927,8 +847,8 @@ window.addEventListener('load', function() {
                                                        <dd>SOLD OUT</dd>
                                                   </dl>
                                              </a>
-                                        </div>
-                                        <div class="swiper-slide">
+                                        </li>
+                                        <li class="swiper-slide">
                                              <a href="#">
                                                   <p><img src="img/select/bigbang/madeCd04.gif" alt=""></p>
                                                   <dl>
@@ -937,17 +857,138 @@ window.addEventListener('load', function() {
                                                        <dd>SOLD OUT</dd>
                                                   </dl>
                                              </a>
-                                        </div>
-                                   </div><!--swiper-wrapper : END-->
+                                        </li> -->
+                                   </ul><!--swiper-wrapper : END-->
                               </div><!--selet_slide : END-->
 
                               <script>
-                                   var swiper = new Swiper(".selet_slide", {
-                                     slidesPerView: 1,
-                                     spaceBetween: 10,
-                                     slidesPerView: 3,
+                                   var selet_slide = new Swiper(".selet_slide", {
+                                        slidesPerView: 1,
+                                        spaceBetween: 10,
+                                        slidesPerView: 3,
+                                        breakpoints: {
+                                             300: {
+                                                  slidesPerView: 1,
+                                             },
+                                             500: {
+                                                  slidesPerView: 2,
+                                             }
+
+                                        },
+
                                    });
-                                 </script>
+
+
+               // const seletBtns1 = document.querySelector('.seletBtns .bigbackgTab')
+               // const seletBtns2 = document.querySelector('.seletBtns .blackpinkTab')
+               // const seletBtns3 = document.querySelector('.seletBtns .winnerTab')
+               // const seletBtns4 = document.querySelector('.seletBtns .akmuTab')
+
+               // seletBtns1.addEventListener('click',function(e){
+               //      fetch('data.json')
+               //           .then(response => response.json())
+               //           .then(selects => {
+               //                const ul = document.querySelector('.selet_slide_list_bu');
+
+               //                selects.selectBigbackg.forEach((elLi) => {
+               //                     const { img, title, price, sold,sold_new } = elLi;
+               //                     const newLi = document.createElement('li');
+               //                     newLi.classList.add('swiper-slide', 'my-div');
+               //                     newLi.innerHTML = `
+               //                               <a href="#">
+               //                                    <p><img src="${img}" alt=""></p>
+               //                                    <dl>
+               //                                         <dt>${title}</dt>
+               //                                         <dd>${price}</dd>
+               //                                         <dd class="${sold_new}">${sold}</dd>
+               //                                    </dl>
+               //                               </a>
+               //                     `;
+               //                     ul.append(newLi);
+               //                });
+               //                selet_slide.update();
+               //      })//then : END
+               // });
+
+               // seletBtns2.addEventListener('click',function(e){
+               //      fetch('data.json')
+               //           .then(response => response.json())
+               //           .then(selects => {
+               //                const ul = document.querySelector('.selet_slide_list_bu');
+
+               //                selects.selectBlackpink.forEach((elLi) => {
+               //                     const { img, title, price, sold,sold_new } = elLi;
+               //                     const newLi = document.createElement('li');
+               //                     newLi.classList.add('swiper-slide', 'my-div');
+               //                     newLi.innerHTML = `
+               //                               <a href="#">
+               //                                    <p><img src="${img}" alt=""></p>
+               //                                    <dl>
+               //                                         <dt>${title}</dt>
+               //                                         <dd>${price}</dd>
+               //                                         <dd class="${sold_new}">${sold}</dd>
+               //                                    </dl>
+               //                               </a>
+               //                     `;
+               //                     ul.append(newLi);
+               //                });
+               //                selet_slide.update();
+               //      })//then : END
+               // });
+               
+               // seletBtns3.addEventListener('click',function(e){
+               //      fetch('data.json')
+               //           .then(response => response.json())
+               //           .then(selects => {
+               //                const ul = document.querySelector('.selet_slide_list_bu');
+
+               //                selects.selectWinner.forEach((elLi) => {
+               //                     const { img, title, price, sold,sold_new } = elLi;
+               //                     const newLi = document.createElement('li');
+               //                     newLi.classList.add('swiper-slide', 'my-div');
+               //                     newLi.innerHTML = `
+               //                               <a href="#">
+               //                                    <p><img src="${img}" alt=""></p>
+               //                                    <dl>
+               //                                         <dt>${title}</dt>
+               //                                         <dd>${price}</dd>
+               //                                         <dd class="${sold_new}">${sold}</dd>
+               //                                    </dl>
+               //                               </a>
+               //                     `;
+               //                     ul.append(newLi);
+               //                });
+               //                selet_slide.update();
+               //      })//then : END
+               // });
+                              
+               // seletBtns4.addEventListener('click',function(e){
+               //      fetch('data.json')
+               //           .then(response => response.json())
+               //           .then(selects => {
+               //                const ul = document.querySelector('.selet_slide_list_bu');
+
+               //                selects.selectAkmu.forEach((elLi) => {
+               //                     const { img, title, price, sold,sold_new } = elLi;
+               //                     const newLi = document.createElement('li');
+               //                     newLi.classList.add('swiper-slide', 'my-div');
+               //                     newLi.innerHTML = `
+               //                               <a href="#">
+               //                                    <p><img src="${img}" alt=""></p>
+               //                                    <dl>
+               //                                         <dt>${title}</dt>
+               //                                         <dd>${price}</dd>
+               //                                         <dd class="${sold_new}">${sold}</dd>
+               //                                    </dl>
+               //                               </a>
+               //                     `;
+               //                     ul.append(newLi);
+               //                });
+               //                selet_slide.update();
+               //      })//then : END
+               // });
+
+                              </script>
 
                          </div><!--seletContentWrapper : END-->
                     </div><!--in : END-->
@@ -955,22 +996,22 @@ window.addEventListener('load', function() {
                <section id="s6">
                     <div class="move_box">
                          <div class="move_text_box1">
-                             <div class="text">
-                                   <p> YG ENTERTAINMENT  YG SELECT of media AND ARTS.</p>
-                                   <p> YG ENTERTAINMENT  YG SELECT of media AND ARTS.</p>
-                                   <p> YG ENTERTAINMENT  YG SELECT of media AND ARTS.</p>
-                                   <p> YG ENTERTAINMENT  YG SELECT of media AND ARTS.</p>
-                             </div>
+                              <div class="text">
+                                        <p> YG ENTERTAINMENT  YG SELECT of media AND ARTS.</p>
+                                        <p> YG ENTERTAINMENT  YG SELECT of media AND ARTS.</p>
+                                        <p> YG ENTERTAINMENT  YG SELECT of media AND ARTS.</p>
+                                        <p> YG ENTERTAINMENT  YG SELECT of media AND ARTS.</p>
+                              </div>
                          </div>
                          <div class="move_text_box2">
-                             <div class="text">
-                                 <p>YG MULTIMEDIA YG TV</p>
-                                 <p>YG MULTIMEDIA YG TV</p>
-                                 <p>YG MULTIMEDIA YG TV</p>
-                                 <p>YG MULTIMEDIA YG TV</p>
-                             </div>
+                              <div class="text">
+                                   <p>YG MULTIMEDIA YG TV</p>
+                                   <p>YG MULTIMEDIA YG TV</p>
+                                   <p>YG MULTIMEDIA YG TV</p>
+                                   <p>YG MULTIMEDIA YG TV</p>
+                              </div>
                          </div>
-                     </div>
+                    </div>
                     <div class="in">
                          <div class="left_yg_tv">
                               <h4>
@@ -1021,7 +1062,8 @@ window.addEventListener('load', function() {
                               <span># YG의 SNS 정보를 알려드려요</span>
                          </h4>
                          <ul class="container_sns">
-                              <li class="box2">
+                              <!-- json 넣음 -->
+                              <!-- <li class="box2">
                                    <a href="#">
                                         <p><img src="img/sns/sns01.jpg" alt=""></p>
                                         <dl>
@@ -1242,7 +1284,7 @@ window.addEventListener('load', function() {
                                              </dd>
                                         </dl>
                                    </a>
-                              </li>
+                              </li> -->
                          </ul>
                          <script>
 window.addEventListener('load', function() {
@@ -1250,7 +1292,7 @@ window.addEventListener('load', function() {
      var masonry = new Masonry(containerSns, {
           itemSelector: '.box2', // Masonry 레이아웃을 적용할 아이템 선택자
           //     columnWidth: 0, // 컬럼의 기본 너비. 0으로 설정하면 자동으로 계산됨
-          gutter: 0, // 아이템 간의 간격
+          gutter: 10, // 아이템 간의 간격
           //     fitWidth: true, // 컨테이너의 너비에 맞게 아이템들을 자동으로 조절할지 여부
           //     originLeft: true, // 아이템의 왼쪽 여백을 기준으로 정렬할지 여부
           originTop: true, // 아이템의 상단 여백을 기준으로 정렬할지 여부
@@ -1262,6 +1304,39 @@ window.addEventListener('load', function() {
           //     initLayout: true // 초기 레이아웃 생성 시 자동으로 아이템 배치를 수행할지 여부
      });
 });
+
+
+     fetch('data.json')
+          .then(response => response.json())
+          .then(soccer => {
+               const divSns = document.querySelector('.container_sns');
+
+               soccer.sns.forEach((newsItem) => {
+                    const { img, title, teg } = newsItem;
+                    const tegSpan = Object.keys(teg[0]).map((key) => {
+                         return `<span>${teg[0][key]}</span>`;
+                    }).join('');
+                    const box = document.createElement('li');
+                    box.classList.add('box2');
+                    box.innerHTML = `
+                                   <a href="#">
+                                        <p><img src="${img}" alt=""></p>
+                                        <dl>
+                                             <dt>${title}</dt>
+                                             <dd>
+                                                  ${tegSpan}
+                                             </dd>
+                                        </dl>
+                                   </a>
+                    `;
+                    divSns.append(box);
+               });
+
+     })//then : END
+
+
+
+
                          </script>
                     </div><!--in : END-->
                     <footer>
@@ -1295,24 +1370,61 @@ window.addEventListener('load', function() {
      </div><!--main: END-->
      <script src="js/main.js" type="text/javascript"></script>
      <script>
-          ///////////////////////////유튜브 영상 보안정책 오류 안뜨게하는 코드///////////////////////////////////////
-          const express = require('express');
-          const app = express();
+          // import moduleName from 'module';
 
-          // CORS 허용 설정
-          app.use(function(req, res, next) {
-               res.header('Access-Control-Allow-Origin', '*');
-               res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
-               res.header('Access-Control-Allow-Headers', 'Content-Type');
-               next();
+          // ///////////////////////////유튜브 영상 보안정책 오류 안뜨게하는 코드///////////////////////////////////////
+          // const express = require('express');
+          // const app = express();
+
+          // // CORS 허용 설정
+          // app.use(function(req, res, next) {
+          //      res.header('Access-Control-Allow-Origin', '*');
+          //      res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+          //      res.header('Access-Control-Allow-Headers', 'Content-Type');
+          //      next();
+          // });
+
+          // // 나머지 서버 로직 작성...
+
+          // // 서버 시작
+          // app.listen(3000, function() {
+          //      console.log('서버가 3000 포트에서 실행 중입니다.');
+          // });
+
+self.addEventListener('fetch', event => {
+  event.respondWith(handleFetch(event));
+});
+
+async function handleFetch(event) {
+  event.waitUntil(event.preloadResponse);
+
+  return fetch(event.request);
+}
+
+
+self.addEventListener('fetch', (event) => {
+  event.respondWith(
+    caches.match(event.request)
+      .then((response) => {
+        if (response) {
+          return response;
+        }
+
+        // 리소스가 캐시에 없는 경우, 새로운 요청을 할 때까지 기다림
+        return fetch(event.request)
+          .then((response) => {
+            // 리소스를 받아와 캐시에 저장
+            caches.open('cacheName')
+              .then((cache) => {
+                cache.put(event.request, response.clone());
+              });
+              
+            return response;
           });
+      })
+  );
+});
 
-          // 나머지 서버 로직 작성...
-
-          // 서버 시작
-          app.listen(3000, function() {
-               console.log('서버가 3000 포트에서 실행 중입니다.');
-          });
 
      </script>
 

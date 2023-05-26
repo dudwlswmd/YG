@@ -1,0 +1,632 @@
+
+{
+     "concert":[
+          {
+               "id":1,
+               "Dday":"D-4",
+               "content":"블랙핑크 태국 콘서트",
+               "data":"09.24",
+               "img":"img/con01.jpg"
+          },
+          {
+               "id":2,
+               "Dday":"D-9",
+               "content":"블랙핑크 태국 오리진 콘서트",
+               "data":"09.29",
+               "img":"img/con02.jpg"
+          },
+          {
+               "id":3,
+               "Dday":"D-19",
+               "content":"위너 더 서클 콘서트",
+               "data":"10.08",
+               "img":"img/con03.jpg"
+          },
+          {
+               "id":4,
+               "Dday":"D-22",
+               "content":"위너 더 클리어 콘서트",
+               "data":"10.11",
+               "img":"img/con04.jpeg"
+          },
+          {
+               "id":5,
+               "Dday":"D-23",
+               "content":"블랙핑크 미국 콘서트",
+               "data":"10.12",
+               "img":"img/con05.jpg"
+          },
+          {
+               "id":6,
+               "Dday":"D-24",
+               "content":"블랙핑크 미국 투어 START!",
+               "data":"10.13",
+               "img":"img/con06.jpg"
+          },
+          {
+               "id":7,
+               "Dday":"D-25",
+               "content":"블랙핑크 북미 투어 START!",
+               "data":"10.14",
+               "img":"img/con07.avif"
+          }               
+     ],
+     "news":[
+          {
+               "id":1,
+               "img":"img/new/new01.jpg",
+               "title":"블랙핑크 지수 ‘꽃’, 글로벌 유튜브 송·뮤비 차트 1위",
+               "text":"걸그룹 블랙핑크의 지수가 발표한 솔로 음반 타이틀곡 ‘꽃’이 글로벌 유튜브 송 ‘톱 100’ 차트에서 2주 연속 1위를 차지했다고 소속사 YG엔터테인먼트가 16일 밝혔다.지수의 ‘꽃’은 전 세계에서 가장 많이 본 뮤직비디오 부문에서는 지난주 1위에 이어 2위를 기록했다. ‘꽃’ 뮤직비디오는 공개 8일 만에 1억뷰를 넘어서기도 했다.한편, 블랙핑크는 진행 중인 월드투어 ‘본 핑크'(BORN PINK)가 호평을 받으면서 북미 스타디움 공연 추가 개최를 발표했다",
+               "teg":[
+                    {
+                         "teg1":" # 글로벌",
+                         "teg2":" # 차트 1위"
+                    }
+               ]
+          },
+          {
+               "id":2,
+               "img":"img/new/new08.jpg",
+               "title":"'블랙핑크, 멕시코서만 10만 관객…매진에 1회 추가",
+               "text":"블랙핑크가 멕시코 공연 전석 매진으로 1회차를 추가로 결정했다.소속사 YG엔터테인먼트는 블랙핑크 월드우터 멕시코 시티 공연 1회차를 추가로 개최한다고 10일 밝혔다. 오는 4월 26일 예정된 멕시코 시티 공연이 매진되며 폭발적인 수요에 힘입어 콘서트 일정을 확대했다.이로써 블랙핑크는 4월 26, 27일 양일에 걸쳐 멕시코 팬들을 만나게 됐다. 글로벌 아티스트로서 이들의 뚜렷한 존재감과 막강한 티켓 파워를 다시 한 번 실감케 하는 대목이다.멕시코시티 공연은 콜드플레이, 원 디렉션, 저스틴 비버 등 유수의 팝스타들이 무대를 꾸민 포로 솔(FORO SOL)에서 열린다. 블랙핑크는 K팝 걸그룹 최초로 5만 명 이상을 수용하는 이 지역 대규모 스타디움에 입성, 단 2회 공연만으로 약 10만 관객을 동원한다.",
+               "teg":[
+                    {
+                         "teg1":" # 블랙핑크",
+                         "teg2":" # 전석 매진",
+                         "teg3":" # 멕시코"
+                    }
+               ]
+          },
+          {
+               "id":3,
+               "img":"img/con06.jpg",
+               "title":"블랙핑크, 美 4개 도시 앙코르 투어 확정",
+               "text":"블랙핑크(BLACKPINK)가 K팝 걸그룹 최대 규모의 월드투어를 진행 중인 가운데 북미 스타디움 공연을 대폭 확대한다.16일 YG엔터테인먼트에 따르면 블랙핑크는 오는 8월 12일 미국 뉴저지 메트라이프 스타디움, 8월 18일 라스베이거스 얼리전트 스타디움, 8월 22일 샌프란시스코 오라클 파크, 8월 26일 LA 다저 스타디움에서의 앙코르 공연을 추가 확정했다.이로써 블랙핑크는 북미에서만 10개 도시 18회차에 걸쳐 팬들과 만나게 됐다. 현지 팬들의 폭발적인 성원과 관심 덕분이다.애초 북미 투어는 지난 2022년 7개 도시 14회 공연으로 마무리됐으나 추가 공연 요청이 쇄도했고, 이에 화답하고자 앙코르 콘서트를 결정했다고 YG 측은 설명했다.",
+               "teg":[
+                    {
+                         "teg1":" # 미국",
+                         "teg2":" # 투어"
+                    }
+               ]
+          },
+          {
+               "id":4,
+               "img":"img/new/new02.jpg",
+               "title":"YG 트레저, 日레코드협회 골드디스크 ‘플래티넘’ 인증..32만장 돌파",
+               "text":"블랙핑크(BLACKPINK)가 K팝 걸그룹 최대 규모의 월드투어를 진행 중인 가운데 북미 스타디움 공연을 대폭 확대한다.16일 YG엔터테인먼트에 따르면 블랙핑크는 오는 8월 12일 미국 뉴저지 메트라이프 스타디움, 8월 18일 라스베이거스 얼리전트 스타디움, 8월 22일 샌프란시스코 오라클 파크, 8월 26일 LA 다저 스타디움에서의 앙코르 공연을 추가 확정했다.이로써 블랙핑크는 북미에서만 10개 도시 18회차에 걸쳐 팬들과 만나게 됐다. 현지 팬들의 폭발적인 성원과 관심 덕분이다.애초 북미 투어는 지난 2022년 7개 도시 14회 공연으로 마무리됐으나 추가 공연 요청이 쇄도했고, 이에 화답하고자 앙코르 콘서트를 결정했다고 YG 측은 설명했다.",
+               "teg":[
+                    {
+                         "teg1":" # 日레코드협회",
+                         "teg2":" # 골드디스크",
+                         "teg3":" # 플래티넘"
+                    }
+               ]
+          },
+          {
+               "id":5,
+               "img":"img/new/new03.jpg",
+               "title":"‘YG 新 막내’ 베이비몬스터, 데뷔 전부터 전세계가 주목한 이유",
+               "text":"유튜브 공식 채널 구독자수 142만, 콘텐츠 총 조회수 2억뷰 이상 기록, 전 멤버 개인 퍼포먼스 영상 천만뷰 돌파. 베이비 몬스터가 데뷔 전부터 심상치 않은 인기를 보이며 전세계 K팝 팬들을 두근거리게 하고 있다.YG가 블랙핑크 이후 7년만에 런칭하는 걸그룹 베이비몬스터가 데뷔 전부터 높은 인기를 자랑하며 돌풍을 불고 있다. 알만한 사람들은 이미 유튜브 채널을 구독하고, 티저 영상에 반응하며 가요계의 새로운 별을 맞이하는 분위기다.정식 데뷔 전 공개한 콘텐츠의 조회수는 압도적이다, YG에서 가장 먼저 공개한 새 그룹 공개 영상은 2개월 만에 3100만뷰를 돌파해고, 멤버별 퍼포먼스 영상도 1000만뷰가 기본적이다, 공식 유튜브 채널 구독자 수는 채널 개설 52일 만에 100만을 돌파했고, 24일 오전 기준 142만명을 기록했다.",
+               "teg":[
+                    {
+                         "teg1":" # 신인",
+                         "teg2":" # 7년만",
+                         "teg3":" # 차트 올킬"
+                    }
+               ]
+          },
+          {
+               "id":6,
+               "img":"img/new/new07.jpg",
+               "title":"'블랙핑크 이후 7년 만' YG 신인 걸그룹 '베이비몬스터' 데뷔 초읽기",
+               "text":"YG 신인 걸그룹 베이비몬스터(BABYMONSTER)의 멤버 7인이 공개됐다.최종 데뷔조 발표를 지켜보는 일곱 멤버들의 모습이 고스란히 담겨 그날의 생생한 감동을 전달받았다.앞서 양현석 총괄 프로듀서가 “베이비몬스터는 기획 초기 단계부터 5명으로 생각하고 있었다”고 밝혀 5인조 데뷔가 유력했던 상황이었다.",
+               "teg":[
+                    {
+                         "teg1":" # 7년만",
+                         "teg2":" # YG 신인 걸그룹",
+                         "teg3":" # 베이비몬스터",
+                         "teg4":" # 데뷔"
+                    }
+               ]
+          },
+          {
+               "id":7,
+               "img":"img/new/new06.jpg",
+               "title":"블랙핑크 이후 7년만…'7인조로 대부분 10대 소녀들'",
+               "text":"양현석이 신인 걸그룹과 함께 YG엔터테인먼트의 총괄 프로듀서로 복귀했다.2019년 6월 소속 연예인들의 약물 파동 의혹과 '가수 비아이의 마약 수사 무마 의혹' 등으로 YG의 모든 직책에서 물러난 지 약 3년 6개월 만이다.YG는 블랙핑크 이후 7년 만에 신인 걸그룹 '베이비몬스터'(BABYMONSTER)도 공개했다.1일 YG는 유튜브 영상과 블로그를 통해 그동안 베일에 싸여있던 7인조 신인 걸그룹 베이비몬스터를 선보였다.",
+               "teg":[
+                    {
+                         "teg1":" # 7인조",
+                         "teg2":" # YG 신인 걸그룹",
+                         "teg3":" # 베이비몬스터",
+                         "teg4":" # 10대"
+                    }
+               ]
+          },
+          {
+               "id":8,
+               "img":"img/new/new05.jpg",
+               "title":"‘파격 패션’ 지드래곤, 컴백 예고 “설레는 프로젝트, 차근차근 여러개 준비 중”",
+               "text":"그룹 빅뱅 리더이자 솔로 가수 지드래곤(권지용)이 독보적 분위기와 함께 새 앨범을 예고했다.매거진 하퍼스 바자는 16일 지드래곤의 커버 3종과 인터뷰를 공개했다.",
+               "teg":[
+                    {
+                         "teg1":" # 패션",
+                         "teg2":" # 지드레곤",
+                         "teg3":" # 컴백 예고",
+                         "teg4":" # 제왕의 귀환"
+                    }
+               ]
+          }
+     ],
+     "BIGBANG":[
+          {
+               "id":1,
+               "img":"img/select/bigbang/bibangHode.jpg",
+               "title":"[LASTDANCE] BIGBANG HOODIE",
+               "price":"55,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+          },
+          {
+               "id":2,
+               "img":"img/select/bigbang/bigbangStillLife_Cd.jpg",
+               "title":"[STILL LIFE] BIGBANG CD",
+               "price":"100,000원",
+               "sold":"NEW",
+               "sold_new":"new"
+
+          },
+          {
+               "id":3,
+               "img":"img/select/bigbang/taeyangCd.jpg",
+               "title":"TAEYANG EP ALBUM [Down To Earth]",
+               "price":"15,000원",
+               "sold":"NEW",
+               "sold_new":"new"
+
+          },
+          {
+               "id":4,
+               "img":"img/select/bigbang/bigbangStillLife.jpg",
+               "title":"[STILL LIFE] BIGBANG T-SHIRTS",
+               "price":"35,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          },
+          {
+               "id":5,
+               "img":"img/select/bigbang/madeCd02.gif",
+               "title":"BIGBANG MADE SERIES [A]",
+               "price":"12,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          },
+          {
+               "id":6,
+               "img":"img/select/bigbang/madeCd03.gif",
+               "title":"BIGBANG MADE SERIES [D]",
+               "price":"12,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          },
+          {
+               "id":7,
+               "img":"img/select/bigbang/madeCd04.gif",
+               "title":"BIGBANG MADE SERIES [M]",
+               "price":"12,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          }
+     ],
+     "BLACKPINK":[
+          {
+               "id":1,
+               "img":"img/select/blackpink/jisoo01.jpg",
+               "title":"[LASTDANCE] BIGBANG HOODIE",
+               "price":"55,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          },
+          {
+               "id":2,
+               "img":"img/select/blackpink/jisoo02.jpg",
+               "title":"[STILL LIFE] BIGBANG CD",
+               "price":"100,000원",
+               "sold":"NEW",
+               "sold_new":"new"
+
+          },
+          {
+               "id":3,
+               "img":"img/select/bigbang/taeyangCd.jpg",
+               "title":"TAEYANG EP ALBUM [Down To Earth]",
+               "price":"15,000원",
+               "sold":"NEW",
+               "sold_new":"new"
+
+          },
+          {
+               "id":4,
+               "img":"img/select/bigbang/bigbangStillLife.jpg",
+               "title":"[STILL LIFE] BIGBANG T-SHIRTS",
+               "price":"35,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          },
+          {
+               "id":5,
+               "img":"img/select/bigbang/madeCd02.gif",
+               "title":"BIGBANG MADE SERIES [A]",
+               "price":"12,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          },
+          {
+               "id":6,
+               "img":"img/select/bigbang/madeCd03.gif",
+               "title":"BIGBANG MADE SERIES [D]",
+               "price":"12,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          },
+          {
+               "id":7,
+               "img":"img/select/bigbang/madeCd04.gif",
+               "title":"BIGBANG MADE SERIES [M]",
+               "price":"12,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          }
+     ],
+     "WINNER":[
+          {
+               "id":1,
+               "img":"img/select/winner/winner01.jpg",
+               "title":"[LASTDANCE] BIGBANG HOODIE",
+               "price":"55,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          },
+          {
+               "id":2,
+               "img":"img/select/winner/winner02.jpg",
+               "title":"[STILL LIFE] BIGBANG CD",
+               "price":"100,000원",
+               "sold":"NEW",
+               "sold_new":"new"
+
+          },
+          {
+               "id":3,
+               "img":"img/select/bigbang/taeyangCd.jpg",
+               "title":"TAEYANG EP ALBUM [Down To Earth]",
+               "price":"15,000원",
+               "sold":"NEW",
+               "sold_new":"new"
+
+          },
+          {
+               "id":4,
+               "img":"img/select/bigbang/bigbangStillLife.jpg",
+               "title":"[STILL LIFE] BIGBANG T-SHIRTS",
+               "price":"35,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          },
+          {
+               "id":5,
+               "img":"img/select/bigbang/madeCd02.gif",
+               "title":"BIGBANG MADE SERIES [A]",
+               "price":"12,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          },
+          {
+               "id":6,
+               "img":"img/select/bigbang/madeCd03.gif",
+               "title":"BIGBANG MADE SERIES [D]",
+               "price":"12,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          },
+          {
+               "id":7,
+               "img":"img/select/bigbang/madeCd04.gif",
+               "title":"BIGBANG MADE SERIES [M]",
+               "price":"12,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          }
+     ],
+     "AKMU":[
+          {
+               "id":1,
+               "img":"img/select/akmu/akmu01.jpg",
+               "title":"[LASTDANCE] BIGBANG HOODIE",
+               "price":"55,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          },
+          {
+               "id":2,
+               "img":"img/select/akmu/akmu02.jpg",
+               "title":"[STILL LIFE] BIGBANG CD",
+               "price":"100,000원",
+               "sold":"NEW",
+               "sold_new":"new"
+
+          },
+          {
+               "id":3,
+               "img":"img/select/bigbang/taeyangCd.jpg",
+               "title":"TAEYANG EP ALBUM [Down To Earth]",
+               "price":"15,000원",
+               "sold":"NEW",
+               "sold_new":"new"
+
+          },
+          {
+               "id":4,
+               "img":"img/select/bigbang/bigbangStillLife.jpg",
+               "title":"[STILL LIFE] BIGBANG T-SHIRTS",
+               "price":"35,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          },
+          {
+               "id":5,
+               "img":"img/select/bigbang/madeCd02.gif",
+               "title":"BIGBANG MADE SERIES [A]",
+               "price":"12,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          },
+          {
+               "id":6,
+               "img":"img/select/bigbang/madeCd03.gif",
+               "title":"BIGBANG MADE SERIES [D]",
+               "price":"12,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          },
+          {
+               "id":7,
+               "img":"img/select/bigbang/madeCd04.gif",
+               "title":"BIGBANG MADE SERIES [M]",
+               "price":"12,000원",
+               "sold":"SOLD OUT",
+               "sold_new":""
+
+          }
+     ],
+     "sns":[
+          {
+               "id":1,
+               "img":"img/sns/sns01.jpg",
+               "title":"BABYMONSTER - DEBUT MEMBER ANNOUNCEMENT REACTION",
+               "teg":[
+                    {
+                         "teg1":" # BABYMONSTER",
+                         "teg2":" # 베이비몬스터",
+                         "teg3":" # DEBUT_MEMBER",
+                         "teg4":" # ANNOUNCEMENT",
+                         "teg5":" # REACTION",
+                         "teg6":" # YG_NEW_BROUP",
+                         "teg7":" # YG"
+                    }
+               ]
+          },
+          {
+               "id":2,
+               "img":"img/sns/sns02.jpg",
+               "title":"베이비몬스터 - DEBUT MEMBER ANNOUNCEMENT REACTION",
+               "teg":[
+                    {
+                         "teg1":" # DEBUT_MEMBER",
+                         "teg2":" # 베이비몬스터",
+                         "teg3":" # BABYMONSTER",
+                         "teg4":" # ANNOUNCEMENT",
+                         "teg5":" # REACTION",
+                         "teg6":" # YG_NEW_BROUP",
+                         "teg7":" # YG"
+                    }
+               ]
+          },
+          {
+               "id":3,
+               "img":"img/sns/sns03.jpg",
+               "title":"JISOO '꽃(FLOWER)' M/V HITS 200 MILLION",
+               "teg":[
+                    {
+                         "teg1":" # JISOO",
+                         "teg2":" # 꽃",
+                         "teg3":" # FLOWER",
+                         "teg4":" # FIRSTSINGLEALBUM",
+                         "teg5":" # VISUALFILM",
+                         "teg6":" # 2023",
+                         "teg7":" # RELEASE",
+                         "teg8":" # YG"
+                    }
+               ]
+          },
+          {
+               "id":4,
+               "img":"img/sns/sns04.jpg",
+               "title":"BLACKPINK 'How You Like That' DANCE PERFORMANCE VIDEO HITS 1.4 BILLION VIEWS BLINKs worldwide, thank you so much!",
+               "teg":[
+                    {
+                         "teg1":" # BLACKPINK",
+                         "teg2":" # 블랙핑크",
+                         "teg3":" # BPM",
+                         "teg4":" # BORN_PINK",
+                         "teg5":" # MEMORIES",
+                         "teg6":" # @Youtube"
+                    }
+               ]
+          },
+          {
+               "id":5,
+               "img":"img/sns/sns05.jpg",
+               "title":"HAPPYBIRTHDAY AKMU SUHYUN",
+               "teg":[
+                    {
+                         "teg1":" # HAPPYBIRTHDAY",
+                         "teg2":" # 이수현",
+                         "teg3":" # 악뮤",
+                         "teg4":" # 20230504",
+                         "teg5":" # AKMU",
+                         "teg6":" # LEESUHYUN",
+                         "teg7":" # SUHYUN",
+                         "teg8":" # YG"
+                    }
+               ]
+          },
+          {
+               "id":6,
+               "img":"img/sns/sns06.jpg",
+               "title":"JISOO [ME] OFFLINE FAN SIGNING EVENT",
+               "teg":[
+                    {
+                         "teg1":" # 지수",
+                         "teg2":" # BLACKPINK",
+                         "teg3":" # 블랙핑크",
+                         "teg4":" # FIRSTSINGLEALBUM",
+                         "teg5":" # ME",
+                         "teg6":" # OFFLINE_FANSIGNING_EVENT",
+                         "teg7":" # BLINK",
+                         "teg8":" # YG"
+                    }
+               ]
+          },
+          {
+               "id":7,
+               "img":"img/sns/sns07.jpg",
+               "title":"#BLACKPINK 'Pink Venom' M/V HITS 600 MILLION VIEWS @YoutubeBLINKs worldwide, thank you so much!",
+               "teg":[
+                    {
+                         "teg1":" # 블랙핑크",
+                         "teg2":" # PinkVenom",
+                         "teg3":" # MV",
+                         "teg4":" # 600MILLION",
+                         "teg5":" # YOUTUBE",
+                         "teg8":" # YG"
+                    }
+               ]
+          },
+          {
+               "id":8,
+               "img":"img/sns/sns08.jpg",
+               "title":"#JISOO FIRST SINGLE ALBUM [ME] COUNTDOWN LIVE COUNTEROriginally posted by http://yg-life.com ",
+               "teg":[
+                    {
+                         "teg1":" # BLACKPINK",
+                         "teg2":" # BLACKPINK",
+                         "teg3":" # 블랙핑크",
+                         "teg4":" # COUNTDOWNLIVE",
+                         "teg5":" # MV",
+                         "teg6":" # YOUTUBE",
+                         "teg7":" # BLINK",
+                         "teg8":" # YG"
+                    }
+               ]
+          },
+          {
+               "id":9,
+               "img":"img/sns/sns09.jpg",
+               "title":"BABYMONSTER 'Last Evaluation' TEASER POSTER ",
+               "teg":[
+                    {
+                         "teg1":" # BABYMONSTER",
+                         "teg2":" # 베이비몬스터",
+                         "teg3":" # LASTEVALUATION",
+                         "teg4":" # TEASER_POSTER",
+                         "teg5":" # YG_NEW_GROUP",
+                         "teg6":" # YG"
+                    }
+               ]
+          },
+          {
+               "id":10,
+               "img":"img/sns/sns10.jpg",
+               "title":"TREASURE 2023 WELCOMING COLLECTIONPre-order notice has been uploaded.",
+               "teg":[
+                    {
+                         "teg1":" # TREASURE",
+                         "teg2":" # 트레저",
+                         "teg3":" # 2023_WELCOMING",
+                         "teg4":" # 웰커밍컬렉션",
+                         "teg5":" # YG",
+                         "teg6":" # RELEASE"
+                    }
+               ]
+          },
+          {
+               "id":11,
+               "img":"img/sns/sns11.jpg",
+               "title":"2023 TREASURE TOUR [HELLO] CONCEPT POSTER",
+               "teg":[
+                    {
+                         "teg1":" # TREASURE",
+                         "teg2":" # BLACKPINK",
+                         "teg3":" # 블랙핑크",
+                         "teg4":" # COUNTDOWNLIVE",
+                         "teg5":" # MV",
+                         "teg6":" # YOUTUBE",
+                         "teg7":" # BLINK",
+                         "teg8":" # YG"
+                    }
+               ]
+          },
+          {
+               "id":12,
+               "img":"img/sns/sns12.jpg",
+               "title":"TREASURE [NIGHT GARDEN POP-UP]COMING SOON!",
+               "teg":[
+                    {
+                         "teg1":" # TREASURE",
+                         "teg2":" # 트레저",
+                         "teg3":" # POP-UP",
+                         "teg4":" # GARDEN",
+                         "teg5":" # NIGHT",
+                         "teg6":" # YG"
+                    }
+               ]
+          },
+          {
+               "id":13,
+               "img":"img/sns/sns13.jpg",
+               "title":"#JISOO [ME] OFFLINE FAN SIGNING EVENT",
+               "teg":[
+                    {
+                         "teg1":" # 지수",
+                         "teg2":" # 블랙핑크",
+                         "teg3":" # BLACKPINK",
+                         "teg4":" # JISOO",
+                         "teg5":" # ME",
+                         "teg6":" # YG"
+                    }
+               ]
+          }
+
+     ]
+}
+
+
