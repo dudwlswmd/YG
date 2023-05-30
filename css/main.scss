@@ -2,7 +2,7 @@
 body{margin:0;padding:0;font-family: 'Titillium Web', sans-serif !important;box-sizing: border-box;}
 li{list-style: none;}
 a{text-decoration:none;}
-button{border:0;background: none;cursor: pointer;}
+button{border:0;background: none;cursor: pointer;color:#000;}
 
 
 header{position: relative;
@@ -183,6 +183,8 @@ header {
 
      h1 { width: 150px;
           transition: 0.5s;
+          margin-right: 20px;
+          margin-left: -10px;
           img{width:100%; }
      }
      nav{
@@ -1342,7 +1344,13 @@ section#s2{
                }
           }
 
-          img{width: 100%;}
+          img{
+               transition: 0.5s;
+               width: 110%;
+               position: absolute;
+               top: 0;
+               left: 50%;
+               transform: translate(-50%, 0%);}
           p{
                position: absolute;
                left:50%;
@@ -1859,7 +1867,9 @@ footer .move_text_box_f {
 
 
 
-
+@media screen and (max-width:1750px) {
+     #s5 .select_top_droop_down img{width: 130%;}
+}
 
 @media screen and (max-width:1500px) {
      .visual_swiper .swiper-slide h2{
@@ -1868,6 +1878,9 @@ footer .move_text_box_f {
      .visualBtns{left:50px;}
      .main{padding-right:80px}
      .main .main_right{width: 80px;}
+
+     #s5 .select_top_droop_down img{width: 150%;}
+
 }
 @media screen and (max-width:1450px) {
      header .head.on nav ul li a p{font-size:40px}
@@ -1891,6 +1904,10 @@ footer .move_text_box_f {
 
 }
 @media screen and (max-width:1300px) {
+
+     #s5 .select_top_droop_down img{width: 180%;}
+
+
      .in{width: 1000px;}
      .box{width: 240px !important;}
      .box a dl dt{font-size:16px}
@@ -1904,6 +1921,12 @@ footer .move_text_box_f {
 }
 
 @media screen and (max-width:1100px) {
+     .head.on h1{display: none;}
+     header .head.on nav ul li a p{bottom: -100%;right: auto;left: 50%;transform: translateX(-50%);font-size: 30px;}
+     header .head.on nav ul li a:hover p{
+          bottom:-15px;
+          right: auto;
+     }
      .in{width: 900px;}
      #s3 .in{width: 850px;}
      #s5 .seletContentWrapper{width: 65%;}
@@ -1912,13 +1935,27 @@ footer .move_text_box_f {
      .container_sns{width: 95% !important;}
 }
 @media screen and (max-width:1000px) {
+     header nav ul{flex-direction: column;}
+     header .head.on nav ul li a:hover{padding: 0;}
+     header .head.on nav ul li:nth-child(2) a {background: url(../img/gdracon2.jpg) no-repeat top;background-position: 0px 10%;}
+     header .head.on nav ul li:nth-child(4) a {background: url(../img/ak.webp) no-repeat center;background-position: 0px 30%;}
+     header .head.on nav ul li:nth-child(5) a {background: url(../img/bigbom.jpg) no-repeat top;}
+     header .head.on nav ul li:nth-child(6) a {background: url(../img/tey.jpeg) no-repeat top;background-position: 0 15%;}
+     header .head.on nav ul li:nth-child(7) a {background: url(../img/yg_building.jpg) no-repeat center;background-size: 135% !important;} 
+     
      .in{width: 100%;padding: 0 20px;}
      #s3 .in{width:85%;}
      .in .aboutSlide .swiper-wrapper .swiper-slide .texts p{margin:20px 0 30px;line-height: 22px;}
-     header .head{opacity: 0;}
-     header .head.on{opacity: 1;}
+     header .head{opacity: 0;top:-100%}
+     header .head.on{opacity: 1;top:0;}
 
      .title_box{width:900px ;}
+
+
+     #s5 .select_top_droop_down.on{height: 400px;}
+
+
+
 
      .box{width: 270px !important;}
      .box2{width: 240px !important;}
@@ -1939,6 +1976,7 @@ footer .move_text_box_f {
      .box2{width: 350px !important;}
      .container_sns{width: 710px !important;}
      #s5 .seletContentWrapper{width: 360px !important;}
+     #s5 .select_top_droop_down.on{height: 300px;}
 }
 
 @media screen and (max-width:860px) {
@@ -1991,6 +2029,12 @@ footer .move_text_box_f {
      h4{font-size: 36px !important;}
 }
 @media screen and (max-width:760px) {
+
+     .main_right ul.menu_list::after{display: none;}
+     .main_right ul.menu_list::before{display: none;}
+
+     #s5 .select_top_droop_down.on{height: 280px;}
+
      .box {width: 260px !important;}
      .box2 {width: 260px !important;}
      .container_sns{width: 530px !important;}
@@ -2005,9 +2049,13 @@ footer .move_text_box_f {
      .move_text_box_two .text{font-size:20px}
      .in .aboutSlide .swiper-wrapper .swiper-slide .img{height: 400px;}
      #s5 .seletBtns button.on::before{width: 50%;}
+     #s5 .select_top_droop_down.on{height: 260px;}
+     #s5 .select_top_droop_down.on button{top:87%}
 
 }
 @media screen and (max-width:660px) {
+     header .head.on nav ul li a p{font-size:20px;}
+
      .main .main_right{width: 65px;}
      .main{padding-right:65px}
      .main_right li a{padding: 8px 20px;}
@@ -2020,6 +2068,8 @@ footer .move_text_box_f {
      .visual_swiper .swiper-slide.swiper-slide-active h2{width: 300px;left: 20px;}
      .visualBtns{left: 20px;bottom:230px}
 
+     #s5 .select_top_droop_down.on button{top:80%}
+     #s5 .seletBtns button.on::before{width: 35%;}
      .box2 {width: 100% !important;}
      .container_sns {width: 100% !important;}
      .in .title_box{width: 100%;}
@@ -2036,4 +2086,18 @@ footer .move_text_box_f {
      .container {width: 300px !important;}
       .box a dl dd{height: 60px;-webkit-line-clamp:3;}
       .box a .tag{margin-top:10px;}
+
+      #s5 .select_top_droop_down.on button{top:73%;}
+}
+@media screen and (max-width:530px) {
+     #s5 .select_top_droop_down.on button{top:70%;}
+
+}
+@media screen and (max-width:500px) {
+     #s5 .select_top_droop_down.on button{top:60%;}
+
+}
+@media screen and (max-width:450px) {
+     #s5 .select_top_droop_down.on button{top:55%;}
+
 }
